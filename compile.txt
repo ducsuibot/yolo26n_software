@@ -1,0 +1,1 @@
+gcc -I./include ./src/*.c -o demo -lm
