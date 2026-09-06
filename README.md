@@ -5,6 +5,10 @@
 - DRAM1: lưu weight
 - DRAM2: lưu toàn bộ tensor ofm
 ![YOLO26n Demo](https://raw.githubusercontent.com/ducsuibot/yolo26n_software/main/Screenshot%20from%202026-09-06%2011-07-12.png)
+- Địa chỉ phân cấp DRAM1(chứa weight):
+  ![YOLO26n Demo](https://raw.githubusercontent.com/ducsuibot/yolo26n_software/main/Screenshot%20from%202026-09-06%2011-11-29.png)
+- Địa chỉ phân cấp DRAM2(chứa tensor ofm):
+  ![YOLO26n Demo](https://raw.githubusercontent.com/ducsuibot/yolo26n_software/main/Screenshot%20from%202026-09-06%2011-11-43.png)
 Cách chạy: 
 - clone github về gõ terminal : ./demo
 - sau đó, code c sẽ verify toàn bộ hơn 300 node node với sai số < 0.03 và in output toàn bộ node của backbone/neck/head sang .txt
