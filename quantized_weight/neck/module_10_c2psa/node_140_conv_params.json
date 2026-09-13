@@ -1,0 +1,31 @@
+{
+  "node_id": 140,
+  "node_name": "/model.10/m/m.0/ffn/ffn.1/conv/Conv",
+  "module": "module_10_c2psa",
+  "stage": "neck",
+  "input_tensor": "/model.10/m/m.0/ffn/ffn.0/act/Mul_output_0",
+  "output_tensor": "/model.10/m/m.0/ffn/ffn.1/conv/Conv_output_0",
+  "weight_shape": [
+    128,
+    256,
+    1,
+    1
+  ],
+  "Sx": 0.020669942765724002,
+  "Sw": 0.023546960410170667,
+  "Sy": 0.03867123070664293,
+  "M_float": 0.012585953823843239,
+  "M_mult_dyn": 52789,
+  "M_shift_dyn": 22,
+  "M_mult_16": 825,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.0005994909238669536,
+  "rel_err_16_pct": 0.020238058671689648,
+  "bias_scale": 0.00048671432398499667,
+  "dram1_weight_start": 1262626,
+  "dram1_weight_end": 1295393,
+  "dram1_bias_start": 1295394,
+  "dram1_bias_end": 1295521,
+  "dram2_ofm_start": 34112000,
+  "dram2_ofm_end": 34163199
+}

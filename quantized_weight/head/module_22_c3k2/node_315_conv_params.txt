@@ -1,0 +1,24 @@
+NODE_ID: 315
+NODE_NAME: /model.22/m.0/m.0.1/attn/pe/conv/Conv
+MODULE: module_22_c3k2
+STAGE: head
+INPUT_TENSOR: /model.22/m.0/m.0.1/attn/Reshape_2_output_0
+OUTPUT_TENSOR: /model.22/m.0/m.0.1/attn/pe/conv/Conv_output_0
+WEIGHT_SHAPE: [128, 1, 3, 3]
+Sx: 5.087005435012e-02
+Sw: 5.164520383820e-02
+Sy: 6.049486220352e-02
+Sw_x_Sx_div_Sy (M_float): 4.342838764280e-02
+M_mult (DSP 16-bit): 45538
+M_shift: 20
+M_mult_16 (Fixed Shift 16): 2846
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 2.627194326172e-03
+Rel_Error_Dyn_%: 0.000077%
+Rel_Error_16_%: 0.004315%
+DRAM1_Weight_Start: 2129684
+DRAM1_Weight_End: 2130835
+DRAM1_Bias_Start: 2130836
+DRAM1_Bias_End: 2130963
+DRAM2_OFM_Start: 59587200
+DRAM2_OFM_End: 59638399

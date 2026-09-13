@@ -1,0 +1,31 @@
+{
+  "node_id": 327,
+  "node_name": "/model.22/m.0/m.0.1/ffn/ffn.1/conv/Conv",
+  "module": "module_22_c3k2",
+  "stage": "head",
+  "input_tensor": "/model.22/m.0/m.0.1/ffn/ffn.0/act/Mul_output_0",
+  "output_tensor": "/model.22/m.0/m.0.1/ffn/ffn.1/conv/Conv_output_0",
+  "weight_shape": [
+    128,
+    256,
+    1,
+    1
+  ],
+  "Sx": 0.11842634546475148,
+  "Sw": 0.005761740245218352,
+  "Sy": 0.0634379649725486,
+  "M_float": 0.010756048701336165,
+  "M_mult_dyn": 45114,
+  "M_shift_dyn": 22,
+  "M_mult_16": 705,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.00030609519525946023,
+  "rel_err_16_pct": 0.012993505004874168,
+  "bias_scale": 0.0006823418407583905,
+  "dram1_weight_start": 2180504,
+  "dram1_weight_end": 2213271,
+  "dram1_bias_start": 2213272,
+  "dram1_bias_end": 2213399,
+  "dram2_ofm_start": 61161600,
+  "dram2_ofm_end": 61212799
+}

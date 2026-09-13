@@ -1,0 +1,24 @@
+NODE_ID: 13
+NODE_NAME: /model.2/m.0/cv2/conv/Conv
+MODULE: module_2_c3k2_P2
+STAGE: backbone
+INPUT_TENSOR: /model.2/m.0/cv1/act/Mul_output_0
+OUTPUT_TENSOR: /model.2/m.0/cv2/conv/Conv_output_0
+WEIGHT_SHAPE: [16, 8, 3, 3]
+Sx: 3.174747256782e-02
+Sw: 1.056734971174e-01
+Sy: 4.222260122224e-01
+Sw_x_Sx_div_Sy (M_float): 7.945665008231e-03
+M_mult (DSP 16-bit): 33327
+M_shift: 22
+M_mult_16 (Fixed Shift 16): 521
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 3.354866450881e-03
+Rel_Error_Dyn_%: 0.001397%
+Rel_Error_16_%: 0.052407%
+DRAM1_Weight_Start: 7306
+DRAM1_Weight_End: 8457
+DRAM1_Bias_Start: 8458
+DRAM1_Bias_End: 8473
+DRAM2_OFM_Start: 10854400
+DRAM2_OFM_End: 11263999

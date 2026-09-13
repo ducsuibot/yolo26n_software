@@ -1,0 +1,31 @@
+{
+  "node_id": 97,
+  "node_name": "/model.8/m.0/m/m.1/cv2/conv/Conv",
+  "module": "module_8_c3k2_P5",
+  "stage": "backbone",
+  "input_tensor": "/model.8/m.0/m/m.1/cv1/act/Mul_output_0",
+  "output_tensor": "/model.8/m.0/m/m.1/cv2/conv/Conv_output_0",
+  "weight_shape": [
+    64,
+    64,
+    3,
+    3
+  ],
+  "Sx": 0.03124231053149606,
+  "Sw": 0.011480639300008458,
+  "Sy": 0.07609873493825357,
+  "M_float": 0.004713372678297421,
+  "M_mult_dyn": 39539,
+  "M_shift_dyn": 23,
+  "M_mult_16": 309,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.000921235257261661,
+  "rel_err_16_pct": 0.03380046781393594,
+  "bias_scale": 0.0003586816981109618,
+  "dram1_weight_start": 796752,
+  "dram1_weight_end": 833615,
+  "dram1_bias_start": 833616,
+  "dram1_bias_end": 833679,
+  "dram2_ofm_start": 30259200,
+  "dram2_ofm_end": 30284799
+}

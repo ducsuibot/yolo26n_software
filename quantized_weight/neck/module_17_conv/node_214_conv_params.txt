@@ -1,0 +1,24 @@
+NODE_ID: 214
+NODE_NAME: /model.17/conv/Conv
+MODULE: module_17_conv
+STAGE: neck
+INPUT_TENSOR: /model.16/cv2/act/Mul_output_0
+OUTPUT_TENSOR: /model.17/conv/Conv_output_0
+WEIGHT_SHAPE: [64, 64, 3, 3]
+Sx: 3.821895253940e-02
+Sw: 3.994237250230e-03
+Sy: 4.676632618341e-02
+Sw_x_Sx_div_Sy (M_float): 3.264219714394e-03
+M_mult (DSP 16-bit): 54765
+M_shift: 24
+M_mult_16 (Fixed Shift 16): 214
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 1.526555638977e-04
+Rel_Error_Dyn_%: 0.000878%
+Rel_Error_16_%: 0.035572%
+DRAM1_Weight_Start: 1514670
+DRAM1_Weight_End: 1551533
+DRAM1_Bias_Start: 1551534
+DRAM1_Bias_End: 1551597
+DRAM2_OFM_Start: 47321600
+DRAM2_OFM_End: 47423999

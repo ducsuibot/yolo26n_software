@@ -1,0 +1,31 @@
+{
+  "node_id": 109,
+  "node_name": "/model.9/cv1/conv/Conv",
+  "module": "module_9_sppf",
+  "stage": "neck",
+  "input_tensor": "/model.8/cv2/act/Mul_output_0",
+  "output_tensor": "/model.9/cv1/conv/Conv_output_0",
+  "weight_shape": [
+    128,
+    256,
+    1,
+    1
+  ],
+  "Sx": 0.05133085175762026,
+  "Sw": 0.012289774699473944,
+  "Sy": 0.06637020561638779,
+  "M_float": 0.009504936701258074,
+  "M_mult_dyn": 39867,
+  "M_shift_dyn": 22,
+  "M_mult_16": 623,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.0010183317044595351,
+  "rel_err_16_pct": 0.013560160576923535,
+  "bias_scale": 0.0006308446032332491,
+  "dram1_weight_start": 948752,
+  "dram1_weight_end": 981519,
+  "dram1_bias_start": 981520,
+  "dram1_bias_end": 981647,
+  "dram2_ofm_start": 31027200,
+  "dram2_ofm_end": 31078399
+}

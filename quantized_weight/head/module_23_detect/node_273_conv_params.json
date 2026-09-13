@@ -1,0 +1,31 @@
+{
+  "node_id": 273,
+  "node_name": "/model.23/one2one_cv2.1/one2one_cv2.1.0/conv/Conv",
+  "module": "module_23_detect",
+  "stage": "head",
+  "input_tensor": "/model.19/cv2/act/Mul_output_0",
+  "output_tensor": "/model.23/one2one_cv2.1/one2one_cv2.1.0/conv/Conv_output_0",
+  "weight_shape": [
+    16,
+    128,
+    3,
+    3
+  ],
+  "Sx": 0.04284545192568321,
+  "Sw": 0.0034349004584034596,
+  "Sy": 0.06325356040413924,
+  "M_float": 0.0023266652741716974,
+  "M_mult_dyn": 39035,
+  "M_shift_dyn": 24,
+  "M_mult_16": 152,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 8.744857707891808e-05,
+  "rel_err_16_pct": 0.3150146586644986,
+  "bias_scale": 0.00014716986246003264,
+  "dram1_weight_start": 1815195,
+  "dram1_weight_end": 1833626,
+  "dram1_bias_start": 1833627,
+  "dram1_bias_end": 1833642,
+  "dram2_ofm_start": 56652800,
+  "dram2_ofm_end": 56678399
+}

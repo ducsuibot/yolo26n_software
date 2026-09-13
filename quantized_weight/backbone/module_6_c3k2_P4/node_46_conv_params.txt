@@ -1,0 +1,24 @@
+NODE_ID: 46
+NODE_NAME: /model.6/m.0/cv1/conv/Conv
+MODULE: module_6_c3k2_P4
+STAGE: backbone
+INPUT_TENSOR: /model.6/Split_output_1
+OUTPUT_TENSOR: /model.6/m.0/cv1/conv/Conv_output_0
+WEIGHT_SHAPE: [32, 64, 1, 1]
+Sx: 4.256056237408e-02
+Sw: 4.980313026999e-03
+Sy: 2.756475651358e-02
+Sw_x_Sx_div_Sy (M_float): 7.689707802194e-03
+M_mult (DSP 16-bit): 64506
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 504
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 2.119649232281e-04
+Rel_Error_Dyn_%: 0.000086%
+Rel_Error_16_%: 0.009388%
+DRAM1_Weight_Start: 238478
+DRAM1_Weight_End: 240525
+DRAM1_Bias_Start: 240526
+DRAM1_Bias_End: 240557
+DRAM2_OFM_Start: 26828800
+DRAM2_OFM_End: 26879999

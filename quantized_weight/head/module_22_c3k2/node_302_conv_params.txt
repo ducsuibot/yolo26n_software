@@ -1,0 +1,24 @@
+NODE_ID: 302
+NODE_NAME: /model.22/m.0/m.0.0/cv2/conv/Conv
+MODULE: module_22_c3k2
+STAGE: head
+INPUT_TENSOR: /model.22/m.0/m.0.0/cv1/act/Mul_output_0
+OUTPUT_TENSOR: /model.22/m.0/m.0.0/cv2/conv/Conv_output_0
+WEIGHT_SHAPE: [128, 64, 3, 3]
+Sx: 3.543455018772e-02
+Sw: 6.856588397439e-03
+Sy: 5.554047156507e-02
+Sw_x_Sx_div_Sy (M_float): 4.374469982686e-03
+M_mult (DSP 16-bit): 36696
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 287
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 2.429601256856e-04
+Rel_Error_Dyn_%: 0.000780%
+Rel_Error_16_%: 0.109784%
+DRAM1_Weight_Start: 2022724
+DRAM1_Weight_End: 2096451
+DRAM1_Bias_Start: 2096452
+DRAM1_Bias_End: 2096579
+DRAM2_OFM_Start: 58944000
+DRAM2_OFM_End: 58995199

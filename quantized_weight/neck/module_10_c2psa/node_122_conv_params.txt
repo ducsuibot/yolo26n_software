@@ -1,0 +1,24 @@
+NODE_ID: 122
+NODE_NAME: /model.10/m/m.0/attn/qkv/conv/Conv
+MODULE: module_10_c2psa
+STAGE: neck
+INPUT_TENSOR: /model.10/Split_output_1
+OUTPUT_TENSOR: /model.10/m/m.0/attn/qkv/conv/Conv_output_0
+WEIGHT_SHAPE: [256, 128, 1, 1]
+Sx: 4.977722618524e-02
+Sw: 7.971678193160e-03
+Sy: 8.799966676967e-02
+Sw_x_Sx_div_Sy (M_float): 4.509199217031e-03
+M_mult (DSP 16-bit): 37826
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 296
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 3.968080284968e-04
+Rel_Error_Dyn_%: 0.000252%
+Rel_Error_16_%: 0.164161%
+DRAM1_Weight_Start: 1178770
+DRAM1_Weight_End: 1211537
+DRAM1_Bias_Start: 1211538
+DRAM1_Bias_End: 1211793
+DRAM2_OFM_Start: 32204800
+DRAM2_OFM_End: 32307199

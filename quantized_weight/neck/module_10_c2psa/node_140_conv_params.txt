@@ -1,0 +1,24 @@
+NODE_ID: 140
+NODE_NAME: /model.10/m/m.0/ffn/ffn.1/conv/Conv
+MODULE: module_10_c2psa
+STAGE: neck
+INPUT_TENSOR: /model.10/m/m.0/ffn/ffn.0/act/Mul_output_0
+OUTPUT_TENSOR: /model.10/m/m.0/ffn/ffn.1/conv/Conv_output_0
+WEIGHT_SHAPE: [128, 256, 1, 1]
+Sx: 2.066994276572e-02
+Sw: 2.354696041017e-02
+Sy: 3.867123070664e-02
+Sw_x_Sx_div_Sy (M_float): 1.258595382384e-02
+M_mult (DSP 16-bit): 52789
+M_shift: 22
+M_mult_16 (Fixed Shift 16): 825
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 4.867143239850e-04
+Rel_Error_Dyn_%: 0.000599%
+Rel_Error_16_%: 0.020238%
+DRAM1_Weight_Start: 1262626
+DRAM1_Weight_End: 1295393
+DRAM1_Bias_Start: 1295394
+DRAM1_Bias_End: 1295521
+DRAM2_OFM_Start: 34112000
+DRAM2_OFM_End: 34163199

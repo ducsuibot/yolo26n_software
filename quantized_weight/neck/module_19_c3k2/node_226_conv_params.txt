@@ -1,0 +1,24 @@
+NODE_ID: 226
+NODE_NAME: /model.19/cv1/conv/Conv
+MODULE: module_19_c3k2
+STAGE: neck
+INPUT_TENSOR: /model.18/Concat_output_0
+OUTPUT_TENSOR: /model.19/cv1/conv/Conv_output_0
+WEIGHT_SHAPE: [128, 192, 1, 1]
+Sx: 4.664347490926e-02
+Sw: 8.301093822389e-03
+Sy: 6.768658405214e-02
+Sw_x_Sx_div_Sy (M_float): 5.720363449363e-03
+M_mult (DSP 16-bit): 47986
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 375
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 3.871918614241e-04
+Rel_Error_Dyn_%: 0.000236%
+Rel_Error_16_%: 0.029412%
+DRAM1_Weight_Start: 1567950
+DRAM1_Weight_End: 1592525
+DRAM1_Bias_Start: 1592526
+DRAM1_Bias_End: 1592653
+DRAM2_OFM_Start: 49984000
+DRAM2_OFM_End: 50188799

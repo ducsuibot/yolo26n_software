@@ -1,0 +1,31 @@
+{
+  "node_id": 309,
+  "node_name": "/model.22/m.0/m.0.1/attn/qkv/conv/Conv",
+  "module": "module_22_c3k2",
+  "stage": "head",
+  "input_tensor": "/model.22/m.0/m.0.0/Add_output_0",
+  "output_tensor": "/model.22/m.0/m.0.1/attn/qkv/conv/Conv_output_0",
+  "weight_shape": [
+    256,
+    128,
+    1,
+    1
+  ],
+  "Sx": 0.05372903478427196,
+  "Sw": 0.00683079225810494,
+  "Sy": 0.050870054350124566,
+  "M_float": 0.007214693979169244,
+  "M_mult_dyn": 60521,
+  "M_shift_dyn": 23,
+  "M_mult_16": 473,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.0003959456422506438,
+  "rel_err_16_pct": 0.037607241569629996,
+  "bias_scale": 0.0003670118748398559,
+  "dram1_weight_start": 2096648,
+  "dram1_weight_end": 2129415,
+  "dram1_bias_start": 2129416,
+  "dram1_bias_end": 2129671,
+  "dram2_ofm_start": 59254400,
+  "dram2_ofm_end": 59356799
+}

@@ -1,0 +1,24 @@
+NODE_ID: 243
+NODE_NAME: /model.23/one2one_cv3.0/one2one_cv3.0.1/one2one_cv3.0.1.1/conv/Conv
+MODULE: module_23_detect
+STAGE: head
+INPUT_TENSOR: /model.23/one2one_cv3.0/one2one_cv3.0.1/one2one_cv3.0.1.0/act/Mul_output_0
+OUTPUT_TENSOR: /model.23/one2one_cv3.0/one2one_cv3.0.1/one2one_cv3.0.1.1/conv/Conv_output_0
+WEIGHT_SHAPE: [64, 64, 1, 1]
+Sx: 9.468747687152e-02
+Sw: 8.916239100178e-03
+Sy: 1.018122800692e-01
+Sw_x_Sx_div_Sy (M_float): 8.292282453604e-03
+M_mult (DSP 16-bit): 34780
+M_shift: 22
+M_mult_16 (Fixed Shift 16): 543
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 8.442561835791e-04
+Rel_Error_Dyn_%: 0.001016%
+Rel_Error_16_%: 0.081521%
+DRAM1_Weight_Start: 1597527
+DRAM1_Weight_End: 1601622
+DRAM1_Bias_Start: 1601623
+DRAM1_Bias_End: 1601686
+DRAM2_OFM_Start: 53209600
+DRAM2_OFM_End: 53619199

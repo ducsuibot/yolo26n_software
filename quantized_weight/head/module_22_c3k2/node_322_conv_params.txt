@@ -1,0 +1,24 @@
+NODE_ID: 322
+NODE_NAME: /model.22/m.0/m.0.1/attn/proj/conv/Conv
+MODULE: module_22_c3k2
+STAGE: head
+INPUT_TENSOR: /model.22/m.0/m.0.1/attn/Add_output_0
+OUTPUT_TENSOR: /model.22/m.0/m.0.1/attn/proj/conv/Conv_output_0
+WEIGHT_SHAPE: [128, 128, 1, 1]
+Sx: 5.820610391812e-02
+Sw: 3.331001818649e-03
+Sy: 2.942021437517e-02
+Sw_x_Sx_div_Sy (M_float): 6.590184406385e-03
+M_mult (DSP 16-bit): 55282
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 432
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 1.938846380078e-04
+Rel_Error_Dyn_%: 0.000857%
+Rel_Error_16_%: 0.024468%
+DRAM1_Weight_Start: 2130968
+DRAM1_Weight_End: 2147351
+DRAM1_Bias_Start: 2147352
+DRAM1_Bias_End: 2147479
+DRAM2_OFM_Start: 60752000
+DRAM2_OFM_End: 60803199

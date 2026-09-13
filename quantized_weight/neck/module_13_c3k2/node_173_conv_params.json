@@ -1,0 +1,31 @@
+{
+  "node_id": 173,
+  "node_name": "/model.13/m.0/cv3/conv/Conv",
+  "module": "module_13_c3k2",
+  "stage": "neck",
+  "input_tensor": "/model.13/m.0/Concat_output_0",
+  "output_tensor": "/model.13/m.0/cv3/conv/Conv_output_0",
+  "weight_shape": [
+    64,
+    64,
+    1,
+    1
+  ],
+  "Sx": 0.07964674131138118,
+  "Sw": 0.0040530144698976535,
+  "Sy": 0.05667974442008912,
+  "M_float": 0.005695321994091581,
+  "M_mult_dyn": 47776,
+  "M_shift_dyn": 23,
+  "M_mult_16": 373,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.00036913604824225193,
+  "rel_err_16_pct": 0.0666103476329689,
+  "bias_scale": 0.00032280939501522313,
+  "dram1_weight_start": 1451752,
+  "dram1_weight_end": 1455847,
+  "dram1_bias_start": 1455848,
+  "dram1_bias_end": 1455911,
+  "dram2_ofm_start": 37491200,
+  "dram2_ofm_end": 37593599
+}

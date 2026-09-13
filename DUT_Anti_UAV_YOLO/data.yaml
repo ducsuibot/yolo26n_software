@@ -1,0 +1,8 @@
+# Đường dẫn sẽ được sửa sau khi upload lên Colab
+path: /content/DUT_Anti_UAV_YOLO
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names: ['uav']

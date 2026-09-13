@@ -1,0 +1,24 @@
+NODE_ID: 202
+NODE_NAME: /model.16/m.0/m/m.1/cv2/conv/Conv
+MODULE: module_16_c3k2
+STAGE: neck
+INPUT_TENSOR: /model.16/m.0/m/m.1/cv1/act/Mul_output_0
+OUTPUT_TENSOR: /model.16/m.0/m/m.1/cv2/conv/Conv_output_0
+WEIGHT_SHAPE: [16, 16, 3, 3]
+Sx: 3.325999252439e-02
+Sw: 9.947495197687e-03
+Sy: 9.287098261315e-02
+Sw_x_Sx_div_Sy (M_float): 3.562507971835e-03
+M_mult (DSP 16-bit): 59769
+M_shift: 24
+M_mult_16 (Fixed Shift 16): 233
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 3.308536159115e-04
+Rel_Error_Dyn_%: 0.000057%
+Rel_Error_16_%: 0.202389%
+DRAM1_Weight_Start: 1505086
+DRAM1_Weight_End: 1507389
+DRAM1_Bias_Start: 1507390
+DRAM1_Bias_End: 1507405
+DRAM2_OFM_Start: 44249600
+DRAM2_OFM_End: 44351999

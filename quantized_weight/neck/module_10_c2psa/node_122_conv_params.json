@@ -1,0 +1,31 @@
+{
+  "node_id": 122,
+  "node_name": "/model.10/m/m.0/attn/qkv/conv/Conv",
+  "module": "module_10_c2psa",
+  "stage": "neck",
+  "input_tensor": "/model.10/Split_output_1",
+  "output_tensor": "/model.10/m/m.0/attn/qkv/conv/Conv_output_0",
+  "weight_shape": [
+    256,
+    128,
+    1,
+    1
+  ],
+  "Sx": 0.04977722618523545,
+  "Sw": 0.00797167819315993,
+  "Sy": 0.08799966676967351,
+  "M_float": 0.004509199217031344,
+  "M_mult_dyn": 37826,
+  "M_shift_dyn": 23,
+  "M_mult_16": 296,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.00025214047906796264,
+  "rel_err_16_pct": 0.16416097653653378,
+  "bias_scale": 0.00039680802849683094,
+  "dram1_weight_start": 1178770,
+  "dram1_weight_end": 1211537,
+  "dram1_bias_start": 1211538,
+  "dram1_bias_end": 1211793,
+  "dram2_ofm_start": 32204800,
+  "dram2_ofm_end": 32307199
+}

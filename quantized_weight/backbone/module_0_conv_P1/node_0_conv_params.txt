@@ -1,0 +1,24 @@
+NODE_ID: 0
+NODE_NAME: /model.0/conv/Conv
+MODULE: module_0_conv_P1
+STAGE: backbone
+INPUT_TENSOR: images
+OUTPUT_TENSOR: /model.0/conv/Conv_output_0
+WEIGHT_SHAPE: [16, 3, 3, 3]
+Sx: 7.874015748031e-03
+Sw: 2.925410833884e-01
+Sy: 5.634536142424e-01
+Sw_x_Sx_div_Sy (M_float): 4.088132615218e-03
+M_mult (DSP 16-bit): 34294
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 268
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 2.303473097547e-03
+Rel_Error_Dyn_%: 0.000752%
+Rel_Error_16_%: 0.029912%
+DRAM1_Weight_Start: 0
+DRAM1_Weight_End: 431
+DRAM1_Bias_Start: 432
+DRAM1_Bias_End: 447
+DRAM2_OFM_Start: 0
+DRAM2_OFM_End: 1638399

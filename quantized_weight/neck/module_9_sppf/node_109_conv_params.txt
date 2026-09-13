@@ -1,0 +1,24 @@
+NODE_ID: 109
+NODE_NAME: /model.9/cv1/conv/Conv
+MODULE: module_9_sppf
+STAGE: neck
+INPUT_TENSOR: /model.8/cv2/act/Mul_output_0
+OUTPUT_TENSOR: /model.9/cv1/conv/Conv_output_0
+WEIGHT_SHAPE: [128, 256, 1, 1]
+Sx: 5.133085175762e-02
+Sw: 1.228977469947e-02
+Sy: 6.637020561639e-02
+Sw_x_Sx_div_Sy (M_float): 9.504936701258e-03
+M_mult (DSP 16-bit): 39867
+M_shift: 22
+M_mult_16 (Fixed Shift 16): 623
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 6.308446032332e-04
+Rel_Error_Dyn_%: 0.001018%
+Rel_Error_16_%: 0.013560%
+DRAM1_Weight_Start: 948752
+DRAM1_Weight_End: 981519
+DRAM1_Bias_Start: 981520
+DRAM1_Bias_End: 981647
+DRAM2_OFM_Start: 31027200
+DRAM2_OFM_End: 31078399

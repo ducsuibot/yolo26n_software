@@ -1,0 +1,31 @@
+{
+  "node_id": 0,
+  "node_name": "/model.0/conv/Conv",
+  "module": "module_0_conv_P1",
+  "stage": "backbone",
+  "input_tensor": "images",
+  "output_tensor": "/model.0/conv/Conv_output_0",
+  "weight_shape": [
+    16,
+    3,
+    3,
+    3
+  ],
+  "Sx": 0.007874015748031496,
+  "Sw": 0.2925410833884412,
+  "Sy": 0.5634536142424336,
+  "M_float": 0.004088132615217693,
+  "M_mult_dyn": 34294,
+  "M_shift_dyn": 23,
+  "M_mult_16": 268,
+  "M_shift_16": 16,
+  "rel_err_dyn_pct": 0.0007524373520693604,
+  "rel_err_16_pct": 0.029912276518498496,
+  "bias_scale": 0.0023034730975467813,
+  "dram1_weight_start": 0,
+  "dram1_weight_end": 431,
+  "dram1_bias_start": 432,
+  "dram1_bias_end": 447,
+  "dram2_ofm_start": 0,
+  "dram2_ofm_end": 1638399
+}

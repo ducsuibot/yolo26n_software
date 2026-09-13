@@ -1,0 +1,24 @@
+NODE_ID: 143
+NODE_NAME: /model.10/cv2/conv/Conv
+MODULE: module_10_c2psa
+STAGE: neck
+INPUT_TENSOR: /model.10/Concat_output_0
+OUTPUT_TENSOR: /model.10/cv2/conv/Conv_output_0
+WEIGHT_SHAPE: [256, 256, 1, 1]
+Sx: 7.759343545268e-02
+Sw: 3.924513661017e-03
+Sy: 6.828982435812e-02
+Sw_x_Sx_div_Sy (M_float): 4.459178220203e-03
+M_mult (DSP 16-bit): 37406
+M_shift: 23
+M_mult_16 (Fixed Shift 16): 292
+M_shift_16: 16
+Bias_Scale (Sw*Sx): 3.045164974393e-04
+Rel_Error_Dyn_%: 0.000797%
+Rel_Error_16_%: 0.080997%
+DRAM1_Weight_Start: 1295522
+DRAM1_Weight_End: 1361057
+DRAM1_Bias_Start: 1361058
+DRAM1_Bias_End: 1361313
+DRAM2_OFM_Start: 34316800
+DRAM2_OFM_End: 34419199
