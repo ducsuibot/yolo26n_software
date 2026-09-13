@@ -2,13 +2,10 @@
 - node: gồm tòa bộ định nghĩa node trong model yolo26n
 - module: tổng 24 module, mỗi module gồm các node
 - cơ chế: load , comput, store thông qua địa chỉ 2 DRAM
-- DRAM1: lưu weight
-- DRAM2: lưu toàn bộ tensor ofm
-![YOLO26n Demo](https://raw.githubusercontent.com/ducsuibot/yolo26n_software/main/Screenshot%20from%202026-09-06%2011-07-12.png)
-- Địa chỉ phân cấp DRAM1(chứa weight):
-  ![YOLO26n Demo](https://raw.githubusercontent.com/ducsuibot/yolo26n_software/main/Screenshot%20from%202026-09-06%2011-11-29.png)
-- Địa chỉ phân cấp DRAM2(chứa tensor ofm):
-  ![YOLO26n Demo](https://raw.githubusercontent.com/ducsuibot/yolo26n_software/main/Screenshot%20from%202026-09-06%2011-11-43.png)
+- dram.csv
+- DRAM1: lưu weight (Địa chỉ phân cấp)
+- DRAM2: lưu toàn bộ tensor ofm (Địa chỉ phân cấp)
+
 Cách chạy: 
 - clone github về gõ terminal : ./demo
 - sau đó, code c sẽ verify toàn bộ hơn 300 node node với sai số < 0.03 và in output toàn bộ node của backbone/neck/head sang .txt
