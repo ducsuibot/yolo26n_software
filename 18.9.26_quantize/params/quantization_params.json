@@ -1,0 +1,4556 @@
+[
+  {
+    "node_id": 272,
+    "stage": "neck",
+    "module": "module_20_conv",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_20_conv/node_272_weight.txt",
+    "num_elements": 147456,
+    "symmetric": {
+      "scale": 0.004442472626843791,
+      "zero_point": 0,
+      "max_err": 0.00222121924161911,
+      "cosine_sim": 0.9995132684707642,
+      "sqnr_db": 30.075675060164045
+    },
+    "asymmetric": {
+      "scale": 0.004209333541346531,
+      "zero_point": -7,
+      "max_err": 0.0021046698093414307,
+      "cosine_sim": 0.9995551109313965,
+      "sqnr_db": 30.547346665318216
+    }
+  },
+  {
+    "node_id": 272,
+    "stage": "neck",
+    "module": "module_20_conv",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_20_conv/node_272_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.028375188196737934,
+      "zero_point": 0,
+      "max_err": 0.014139935374259949,
+      "cosine_sim": 0.9999751448631287,
+      "sqnr_db": 42.96457301368509
+    },
+    "asymmetric": {
+      "scale": 0.02670023488063438,
+      "zero_point": 7,
+      "max_err": 0.013193607330322266,
+      "cosine_sim": 0.9999786019325256,
+      "sqnr_db": 43.59148832367272
+    }
+  },
+  {
+    "node_id": 226,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_226_weight.txt",
+    "num_elements": 24576,
+    "symmetric": {
+      "scale": 0.00830109476104496,
+      "zero_point": 0,
+      "max_err": 0.004150476306676865,
+      "cosine_sim": 0.9998584389686584,
+      "sqnr_db": 35.45783903353731
+    },
+    "asymmetric": {
+      "scale": 0.008058847165575214,
+      "zero_point": 3,
+      "max_err": 0.004029124975204468,
+      "cosine_sim": 0.9998685717582703,
+      "sqnr_db": 35.78140000261086
+    }
+  },
+  {
+    "node_id": 269,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_269_weight.txt",
+    "num_elements": 24576,
+    "symmetric": {
+      "scale": 0.0186045038418507,
+      "zero_point": 0,
+      "max_err": 0.009301990270614624,
+      "cosine_sim": 0.996761679649353,
+      "sqnr_db": 21.867161464872407
+    },
+    "asymmetric": {
+      "scale": 0.01178898811340332,
+      "zero_point": 72,
+      "max_err": 0.005894333124160767,
+      "cosine_sim": 0.9986998438835144,
+      "sqnr_db": 25.8367913315223
+    }
+  },
+  {
+    "node_id": 247,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_247_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.01959490588330847,
+      "zero_point": 0,
+      "max_err": 0.009797096252441406,
+      "cosine_sim": 0.9996893405914307,
+      "sqnr_db": 32.06828121769038
+    },
+    "asymmetric": {
+      "scale": 0.0171937531115962,
+      "zero_point": -18,
+      "max_err": 0.008596718311309814,
+      "cosine_sim": 0.9997623562812805,
+      "sqnr_db": 33.235517863018714
+    }
+  },
+  {
+    "node_id": 247,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_247_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.020369173034908265,
+      "zero_point": 0,
+      "max_err": 0.010128498077392578,
+      "cosine_sim": 0.9999890327453613,
+      "sqnr_db": 46.289402766385386
+    },
+    "asymmetric": {
+      "scale": 0.01732763122109806,
+      "zero_point": 21,
+      "max_err": 0.008380889892578125,
+      "cosine_sim": 0.9999915957450867,
+      "sqnr_db": 47.71289814329539
+    }
+  },
+  {
+    "node_id": 257,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_257_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.006774535329323116,
+      "zero_point": 0,
+      "max_err": 0.003387071192264557,
+      "cosine_sim": 0.999737024307251,
+      "sqnr_db": 32.78381148484313
+    },
+    "asymmetric": {
+      "scale": 0.006215235298755123,
+      "zero_point": 10,
+      "max_err": 0.0031075291335582733,
+      "cosine_sim": 0.999779462814331,
+      "sqnr_db": 33.54881692739163
+    }
+  },
+  {
+    "node_id": 239,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_239_weight.txt",
+    "num_elements": 2048,
+    "symmetric": {
+      "scale": 0.008915771649578425,
+      "zero_point": 0,
+      "max_err": 0.0044554173946380615,
+      "cosine_sim": 0.9999383687973022,
+      "sqnr_db": 39.09008016341802
+    },
+    "asymmetric": {
+      "scale": 0.00880135695139567,
+      "zero_point": 1,
+      "max_err": 0.0044000595808029175,
+      "cosine_sim": 0.9999396800994873,
+      "sqnr_db": 39.185395783192625
+    }
+  },
+  {
+    "node_id": 239,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_239_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.014558441056979923,
+      "zero_point": 0,
+      "max_err": 0.007165431976318359,
+      "cosine_sim": 0.9999926090240479,
+      "sqnr_db": 48.32649923687779
+    },
+    "asymmetric": {
+      "scale": 0.014381011794595158,
+      "zero_point": 1,
+      "max_err": 0.006820857524871826,
+      "cosine_sim": 0.9999909400939941,
+      "sqnr_db": 47.22302813637132
+    }
+  },
+  {
+    "node_id": 257,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_257_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.020594369708083746,
+      "zero_point": 0,
+      "max_err": 0.010288596153259277,
+      "cosine_sim": 0.9999851584434509,
+      "sqnr_db": 45.18912826082772
+    },
+    "asymmetric": {
+      "scale": 0.01633333318373736,
+      "zero_point": 32,
+      "max_err": 0.008033394813537598,
+      "cosine_sim": 0.9999914765357971,
+      "sqnr_db": 47.65010400990647
+    }
+  },
+  {
+    "node_id": 265,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_265_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.013075866098479024,
+      "zero_point": 0,
+      "max_err": 0.006537865847349167,
+      "cosine_sim": 0.9995353817939758,
+      "sqnr_db": 30.311725885102184
+    },
+    "asymmetric": {
+      "scale": 0.009409615572761086,
+      "zero_point": 48,
+      "max_err": 0.004703156650066376,
+      "cosine_sim": 0.9997585415840149,
+      "sqnr_db": 33.161835638151096
+    }
+  },
+  {
+    "node_id": 226,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_226_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.018624354535200463,
+      "zero_point": 0,
+      "max_err": 0.009311139583587646,
+      "cosine_sim": 0.9999801516532898,
+      "sqnr_db": 43.997447864497225
+    },
+    "asymmetric": {
+      "scale": 0.015417788542953193,
+      "zero_point": 25,
+      "max_err": 0.007659614086151123,
+      "cosine_sim": 0.9999859929084778,
+      "sqnr_db": 45.4487296242669
+    }
+  },
+  {
+    "node_id": 253,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_253_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.016323174078633467,
+      "zero_point": 0,
+      "max_err": 0.00753629207611084,
+      "cosine_sim": 0.9999904632568359,
+      "sqnr_db": 47.199786819248445
+    },
+    "asymmetric": {
+      "scale": 0.015160102470248354,
+      "zero_point": 9,
+      "max_err": 0.007545948028564453,
+      "cosine_sim": 0.9999884963035583,
+      "sqnr_db": 46.17479630342329
+    }
+  },
+  {
+    "node_id": 238,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_238_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.007016409569837916,
+      "zero_point": 0,
+      "max_err": 0.0032227933406829834,
+      "cosine_sim": 0.9999934434890747,
+      "sqnr_db": 48.77286501784083
+    },
+    "asymmetric": {
+      "scale": 0.006516960789175594,
+      "zero_point": 9,
+      "max_err": 0.0030088424682617188,
+      "cosine_sim": 0.9999943971633911,
+      "sqnr_db": 49.40526663495494
+    }
+  },
+  {
+    "node_id": 269,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_269_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.030755347154271886,
+      "zero_point": 0,
+      "max_err": 0.015015609562397003,
+      "cosine_sim": 0.9999672770500183,
+      "sqnr_db": 41.74961704483969
+    },
+    "asymmetric": {
+      "scale": 0.024545639636469822,
+      "zero_point": -32,
+      "max_err": 0.01222240924835205,
+      "cosine_sim": 0.9999764561653137,
+      "sqnr_db": 43.21005412106321
+    }
+  },
+  {
+    "node_id": 253,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_253_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.006538212768674835,
+      "zero_point": 0,
+      "max_err": 0.0032687224447727203,
+      "cosine_sim": 0.9998078942298889,
+      "sqnr_db": 34.1569891890399
+    },
+    "asymmetric": {
+      "scale": 0.006258898155361998,
+      "zero_point": 5,
+      "max_err": 0.003129243850708008,
+      "cosine_sim": 0.9998212456703186,
+      "sqnr_db": 34.46647944749313
+    }
+  },
+  {
+    "node_id": 260,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_260_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.015468574884369618,
+      "zero_point": 0,
+      "max_err": 0.007733425125479698,
+      "cosine_sim": 0.9996570944786072,
+      "sqnr_db": 31.632724229587765
+    },
+    "asymmetric": {
+      "scale": 0.015008953038383933,
+      "zero_point": -4,
+      "max_err": 0.007504139095544815,
+      "cosine_sim": 0.999674379825592,
+      "sqnr_db": 31.856334566280072
+    }
+  },
+  {
+    "node_id": 260,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_260_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.025908378165537916,
+      "zero_point": 0,
+      "max_err": 0.012546777725219727,
+      "cosine_sim": 0.9999924898147583,
+      "sqnr_db": 47.964962630688476
+    },
+    "asymmetric": {
+      "scale": 0.020972678240607768,
+      "zero_point": -30,
+      "max_err": 0.010289907455444336,
+      "cosine_sim": 0.999995768070221,
+      "sqnr_db": 50.84618978323847
+    }
+  },
+  {
+    "node_id": 265,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_19_c3k2/node_265_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.04440389843437615,
+      "zero_point": 0,
+      "max_err": 0.022124171257019043,
+      "cosine_sim": 0.9999675154685974,
+      "sqnr_db": 41.71651983329607
+    },
+    "asymmetric": {
+      "scale": 0.028002172825383205,
+      "zero_point": -74,
+      "max_err": 0.013937234878540039,
+      "cosine_sim": 0.9999904036521912,
+      "sqnr_db": 47.13958984930822
+    }
+  },
+  {
+    "node_id": 238,
+    "stage": "neck",
+    "module": "module_19_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_19_c3k2/node_238_weight.txt",
+    "num_elements": 2048,
+    "symmetric": {
+      "scale": 0.004078740210045041,
+      "zero_point": 0,
+      "max_err": 0.002039290964603424,
+      "cosine_sim": 0.9998637437820435,
+      "sqnr_db": 35.64576285148774
+    },
+    "asymmetric": {
+      "scale": 0.00340271370083678,
+      "zero_point": 24,
+      "max_err": 0.0017007086426019669,
+      "cosine_sim": 0.9999074339866638,
+      "sqnr_db": 37.320735116908146
+    }
+  },
+  {
+    "node_id": 114,
+    "stage": "neck",
+    "module": "module_9_sppf",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_9_sppf/node_114_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.057270883575199154,
+      "zero_point": 0,
+      "max_err": 0.028493165969848633,
+      "cosine_sim": 0.999978244304657,
+      "sqnr_db": 43.592947401756284
+    },
+    "asymmetric": {
+      "scale": 0.048644275291293275,
+      "zero_point": 22,
+      "max_err": 0.024316638708114624,
+      "cosine_sim": 0.9999852776527405,
+      "sqnr_db": 45.3132686836036
+    }
+  },
+  {
+    "node_id": 109,
+    "stage": "neck",
+    "module": "module_9_sppf",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_9_sppf/node_109_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.012289771883506474,
+      "zero_point": 0,
+      "max_err": 0.006144771818071604,
+      "cosine_sim": 0.9995023608207703,
+      "sqnr_db": 30.014449240705495
+    },
+    "asymmetric": {
+      "scale": 0.010860517913219975,
+      "zero_point": -17,
+      "max_err": 0.005429714918136597,
+      "cosine_sim": 0.9996112585067749,
+      "sqnr_db": 31.080949118074553
+    }
+  },
+  {
+    "node_id": 109,
+    "stage": "neck",
+    "module": "module_9_sppf",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_9_sppf/node_109_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.03082620440505621,
+      "zero_point": 0,
+      "max_err": 0.015379905700683594,
+      "cosine_sim": 0.9999704360961914,
+      "sqnr_db": 42.258435197433144
+    },
+    "asymmetric": {
+      "scale": 0.026140615986842735,
+      "zero_point": -23,
+      "max_err": 0.01292949914932251,
+      "cosine_sim": 0.9999799132347107,
+      "sqnr_db": 43.93495971764507
+    }
+  },
+  {
+    "node_id": 114,
+    "stage": "neck",
+    "module": "module_9_sppf",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_9_sppf/node_114_weight.txt",
+    "num_elements": 131072,
+    "symmetric": {
+      "scale": 0.00673154348463524,
+      "zero_point": 0,
+      "max_err": 0.0033656302839517593,
+      "cosine_sim": 0.9981548190116882,
+      "sqnr_db": 24.306822806305842
+    },
+    "asymmetric": {
+      "scale": 0.0054953843939538095,
+      "zero_point": 28,
+      "max_err": 0.0027476921677589417,
+      "cosine_sim": 0.9987586736679077,
+      "sqnr_db": 26.07031002945295
+    }
+  },
+  {
+    "node_id": 195,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_195_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.004973929228745107,
+      "zero_point": 0,
+      "max_err": 0.0024862438440322876,
+      "cosine_sim": 0.9999195337295532,
+      "sqnr_db": 37.9254166065518
+    },
+    "asymmetric": {
+      "scale": 0.004793023595622941,
+      "zero_point": 4,
+      "max_err": 0.0023963823914527893,
+      "cosine_sim": 0.9999241232872009,
+      "sqnr_db": 38.184777326626886
+    }
+  },
+  {
+    "node_id": 199,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_199_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.005555519907493291,
+      "zero_point": 0,
+      "max_err": 0.002774197608232498,
+      "cosine_sim": 0.9998674988746643,
+      "sqnr_db": 35.7666984252133
+    },
+    "asymmetric": {
+      "scale": 0.004798553036708458,
+      "zero_point": 19,
+      "max_err": 0.0023969560861587524,
+      "cosine_sim": 0.9999039173126221,
+      "sqnr_db": 37.167257391761396
+    }
+  },
+  {
+    "node_id": 186,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_186_weight.txt",
+    "num_elements": 512,
+    "symmetric": {
+      "scale": 0.005916133640319344,
+      "zero_point": 0,
+      "max_err": 0.0029505491256713867,
+      "cosine_sim": 0.9999592304229736,
+      "sqnr_db": 40.8760459655285
+    },
+    "asymmetric": {
+      "scale": 0.005865364682440664,
+      "zero_point": 0,
+      "max_err": 0.0029304921627044678,
+      "cosine_sim": 0.999960720539093,
+      "sqnr_db": 41.024546301951986
+    }
+  },
+  {
+    "node_id": 192,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_192_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.013392306688263661,
+      "zero_point": 0,
+      "max_err": 0.0066956281661987305,
+      "cosine_sim": 0.9999383687973022,
+      "sqnr_db": 39.09616161041255
+    },
+    "asymmetric": {
+      "scale": 0.012271215401443781,
+      "zero_point": -12,
+      "max_err": 0.006134554743766785,
+      "cosine_sim": 0.9999470114707947,
+      "sqnr_db": 39.75929898834016
+    }
+  },
+  {
+    "node_id": 199,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_199_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.017329323010181818,
+      "zero_point": 0,
+      "max_err": 0.008233845233917236,
+      "cosine_sim": 0.9999692440032959,
+      "sqnr_db": 42.020395776804946
+    },
+    "asymmetric": {
+      "scale": 0.012136776540793625,
+      "zero_point": -54,
+      "max_err": 0.0056867897510528564,
+      "cosine_sim": 0.9999890923500061,
+      "sqnr_db": 46.328941371343305
+    }
+  },
+  {
+    "node_id": 207,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_207_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.0537236994645727,
+      "zero_point": 0,
+      "max_err": 0.024993896484375,
+      "cosine_sim": 0.99998539686203,
+      "sqnr_db": 45.31257420382593
+    },
+    "asymmetric": {
+      "scale": 0.03373341887604957,
+      "zero_point": -75,
+      "max_err": 0.016719341278076172,
+      "cosine_sim": 0.9999906420707703,
+      "sqnr_db": 47.3148325418769
+    }
+  },
+  {
+    "node_id": 207,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_207_weight.txt",
+    "num_elements": 1024,
+    "symmetric": {
+      "scale": 0.005759945065956416,
+      "zero_point": 0,
+      "max_err": 0.0028791651129722595,
+      "cosine_sim": 0.999934732913971,
+      "sqnr_db": 38.84154618643275
+    },
+    "asymmetric": {
+      "scale": 0.005378337233674292,
+      "zero_point": 8,
+      "max_err": 0.002686021849513054,
+      "cosine_sim": 0.9999449849128723,
+      "sqnr_db": 39.58275894029065
+    }
+  },
+  {
+    "node_id": 186,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_186_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.010897495615200734,
+      "zero_point": 0,
+      "max_err": 0.005148440599441528,
+      "cosine_sim": 0.9999874830245972,
+      "sqnr_db": 45.799722139968324
+    },
+    "asymmetric": {
+      "scale": 0.008615744815153235,
+      "zero_point": -34,
+      "max_err": 0.0036602914333343506,
+      "cosine_sim": 0.9999943971633911,
+      "sqnr_db": 49.44865417011573
+    }
+  },
+  {
+    "node_id": 187,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_187_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.03669967050627461,
+      "zero_point": 0,
+      "max_err": 0.01811397075653076,
+      "cosine_sim": 0.9999908208847046,
+      "sqnr_db": 47.16764430548962
+    },
+    "asymmetric": {
+      "scale": 0.03256367515115177,
+      "zero_point": -16,
+      "max_err": 0.015943825244903564,
+      "cosine_sim": 0.9999908208847046,
+      "sqnr_db": 47.270221100613625
+    }
+  },
+  {
+    "node_id": 195,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_195_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.01676164649602935,
+      "zero_point": 0,
+      "max_err": 0.007651291787624359,
+      "cosine_sim": 0.9999787211418152,
+      "sqnr_db": 43.680271602633056
+    },
+    "asymmetric": {
+      "scale": 0.011832882843765559,
+      "zero_point": -53,
+      "max_err": 0.004714585840702057,
+      "cosine_sim": 0.9999927282333374,
+      "sqnr_db": 48.31145063056717
+    }
+  },
+  {
+    "node_id": 187,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_187_weight.txt",
+    "num_elements": 512,
+    "symmetric": {
+      "scale": 0.017138834074726255,
+      "zero_point": 0,
+      "max_err": 0.008556187152862549,
+      "cosine_sim": 0.9999548196792603,
+      "sqnr_db": 40.43735168344447
+    },
+    "asymmetric": {
+      "scale": 0.015653156766704486,
+      "zero_point": -12,
+      "max_err": 0.007805138826370239,
+      "cosine_sim": 0.9999603629112244,
+      "sqnr_db": 41.01529788359252
+    }
+  },
+  {
+    "node_id": 202,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_202_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.037267977797140285,
+      "zero_point": 0,
+      "max_err": 0.018574237823486328,
+      "cosine_sim": 0.9999932646751404,
+      "sqnr_db": 48.667694600158256
+    },
+    "asymmetric": {
+      "scale": 0.024334031927819345,
+      "zero_point": -68,
+      "max_err": 0.012103080749511719,
+      "cosine_sim": 0.9999976754188538,
+      "sqnr_db": 52.77573134418242
+    }
+  },
+  {
+    "node_id": 211,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_211_weight.txt",
+    "num_elements": 6144,
+    "symmetric": {
+      "scale": 0.018648095018281713,
+      "zero_point": 0,
+      "max_err": 0.009323149919509888,
+      "cosine_sim": 0.9985840916633606,
+      "sqnr_db": 25.473583799688633
+    },
+    "asymmetric": {
+      "scale": 0.011396529627781288,
+      "zero_point": 80,
+      "max_err": 0.005698000080883503,
+      "cosine_sim": 0.9994750022888184,
+      "sqnr_db": 29.783996792884963
+    }
+  },
+  {
+    "node_id": 182,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_182_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.02010896825414943,
+      "zero_point": 0,
+      "max_err": 0.009301066398620605,
+      "cosine_sim": 0.9999890327453613,
+      "sqnr_db": 46.613552669987044
+    },
+    "asymmetric": {
+      "scale": 0.015756713642793543,
+      "zero_point": -35,
+      "max_err": 0.00787043571472168,
+      "cosine_sim": 0.9999920129776001,
+      "sqnr_db": 48.021861525185074
+    }
+  },
+  {
+    "node_id": 211,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_211_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.02955820429043507,
+      "zero_point": 0,
+      "max_err": 0.014773845672607422,
+      "cosine_sim": 0.9999842047691345,
+      "sqnr_db": 44.967944815409126
+    },
+    "asymmetric": {
+      "scale": 0.02747782725913852,
+      "zero_point": -10,
+      "max_err": 0.013563781976699829,
+      "cosine_sim": 0.9999856352806091,
+      "sqnr_db": 45.39437673611194
+    }
+  },
+  {
+    "node_id": 192,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_16_c3k2/node_192_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.020508370061559002,
+      "zero_point": 0,
+      "max_err": 0.009770408272743225,
+      "cosine_sim": 0.9999839067459106,
+      "sqnr_db": 44.87982474461167
+    },
+    "asymmetric": {
+      "scale": 0.01631178061167399,
+      "zero_point": -33,
+      "max_err": 0.007814466953277588,
+      "cosine_sim": 0.9999895691871643,
+      "sqnr_db": 46.67310969953882
+    }
+  },
+  {
+    "node_id": 202,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_202_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.009947496136342446,
+      "zero_point": 0,
+      "max_err": 0.004973478615283966,
+      "cosine_sim": 0.9999288320541382,
+      "sqnr_db": 38.47269742767456
+    },
+    "asymmetric": {
+      "scale": 0.009792086189868404,
+      "zero_point": 1,
+      "max_err": 0.004892999771982431,
+      "cosine_sim": 0.999932050704956,
+      "sqnr_db": 38.66425493200728
+    }
+  },
+  {
+    "node_id": 182,
+    "stage": "neck",
+    "module": "module_16_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_16_c3k2/node_182_weight.txt",
+    "num_elements": 16384,
+    "symmetric": {
+      "scale": 0.003830102250331969,
+      "zero_point": 0,
+      "max_err": 0.001914873719215393,
+      "cosine_sim": 0.9998984932899475,
+      "sqnr_db": 36.92332405862723
+    },
+    "asymmetric": {
+      "scale": 0.0035370901519177008,
+      "zero_point": 10,
+      "max_err": 0.0017685331404209137,
+      "cosine_sim": 0.9999139308929443,
+      "sqnr_db": 37.61460265402709
+    }
+  },
+  {
+    "node_id": 214,
+    "stage": "neck",
+    "module": "module_17_conv",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_17_conv/node_214_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.034723582230214996,
+      "zero_point": 0,
+      "max_err": 0.017139434814453125,
+      "cosine_sim": 0.9999701380729675,
+      "sqnr_db": 42.227164669814314
+    },
+    "asymmetric": {
+      "scale": 0.03229443138720942,
+      "zero_point": 9,
+      "max_err": 0.016020148992538452,
+      "cosine_sim": 0.9999776482582092,
+      "sqnr_db": 43.51008690199553
+    }
+  },
+  {
+    "node_id": 214,
+    "stage": "neck",
+    "module": "module_17_conv",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_17_conv/node_214_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.00399423631157462,
+      "zero_point": 0,
+      "max_err": 0.001997072249650955,
+      "cosine_sim": 0.9997158646583557,
+      "sqnr_db": 32.47127686793223
+    },
+    "asymmetric": {
+      "scale": 0.0037324901889352236,
+      "zero_point": -9,
+      "max_err": 0.001866120845079422,
+      "cosine_sim": 0.9997527599334717,
+      "sqnr_db": 33.057378568133544
+    }
+  },
+  {
+    "node_id": 168,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_168_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.007316779433272955,
+      "zero_point": 0,
+      "max_err": 0.003657999914139509,
+      "cosine_sim": 0.9998766779899597,
+      "sqnr_db": 36.074013167553595
+    },
+    "asymmetric": {
+      "scale": 0.0064559726154103,
+      "zero_point": -17,
+      "max_err": 0.003227837383747101,
+      "cosine_sim": 0.9999051094055176,
+      "sqnr_db": 37.20581622354578
+    }
+  },
+  {
+    "node_id": 148,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_148_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.02823233792162317,
+      "zero_point": 0,
+      "max_err": 0.014107227325439453,
+      "cosine_sim": 0.9999784231185913,
+      "sqnr_db": 43.636444925441154
+    },
+    "asymmetric": {
+      "scale": 0.024205478032430013,
+      "zero_point": 20,
+      "max_err": 0.012088179588317871,
+      "cosine_sim": 0.9999812245368958,
+      "sqnr_db": 44.26012090505347
+    }
+  },
+  {
+    "node_id": 173,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_173_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.004053015877881388,
+      "zero_point": 0,
+      "max_err": 0.0020262040197849274,
+      "cosine_sim": 0.9999321103096008,
+      "sqnr_db": 38.674987274260204
+    },
+    "asymmetric": {
+      "scale": 0.004026364812663957,
+      "zero_point": -1,
+      "max_err": 0.002013079822063446,
+      "cosine_sim": 0.99993497133255,
+      "sqnr_db": 38.86537215861906
+    }
+  },
+  {
+    "node_id": 165,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_165_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.0023576692333371623,
+      "zero_point": 0,
+      "max_err": 0.0011787712574005127,
+      "cosine_sim": 0.9999048709869385,
+      "sqnr_db": 37.205547823116085
+    },
+    "asymmetric": {
+      "scale": 0.002110858816726535,
+      "zero_point": -15,
+      "max_err": 0.0010554231703281403,
+      "cosine_sim": 0.9999246597290039,
+      "sqnr_db": 38.2118973202395
+    }
+  },
+  {
+    "node_id": 177,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_177_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.022199110721978617,
+      "zero_point": 0,
+      "max_err": 0.010886192321777344,
+      "cosine_sim": 0.9999718070030212,
+      "sqnr_db": 42.49375857264909
+    },
+    "asymmetric": {
+      "scale": 0.017917615759606455,
+      "zero_point": 29,
+      "max_err": 0.00888592004776001,
+      "cosine_sim": 0.999981701374054,
+      "sqnr_db": 44.38506942820774
+    }
+  },
+  {
+    "node_id": 168,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_168_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.031005393801711675,
+      "zero_point": 0,
+      "max_err": 0.014495611190795898,
+      "cosine_sim": 0.9999929070472717,
+      "sqnr_db": 47.847699786142584
+    },
+    "asymmetric": {
+      "scale": 0.0222871649499033,
+      "zero_point": -50,
+      "max_err": 0.010659098625183105,
+      "cosine_sim": 0.9999960660934448,
+      "sqnr_db": 50.65128354088748
+    }
+  },
+  {
+    "node_id": 152,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_152_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.011036378192150687,
+      "zero_point": 0,
+      "max_err": 0.00550726056098938,
+      "cosine_sim": 0.9999884963035583,
+      "sqnr_db": 46.06773549469299
+    },
+    "asymmetric": {
+      "scale": 0.010411266719593722,
+      "zero_point": -8,
+      "max_err": 0.004939436912536621,
+      "cosine_sim": 0.9999872446060181,
+      "sqnr_db": 45.61743591609321
+    }
+  },
+  {
+    "node_id": 177,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_177_weight.txt",
+    "num_elements": 24576,
+    "symmetric": {
+      "scale": 0.00849943273649441,
+      "zero_point": 0,
+      "max_err": 0.004249595105648041,
+      "cosine_sim": 0.9995967149734497,
+      "sqnr_db": 30.91347652540734
+    },
+    "asymmetric": {
+      "scale": 0.006485882226158591,
+      "zero_point": -39,
+      "max_err": 0.003242887556552887,
+      "cosine_sim": 0.9997633099555969,
+      "sqnr_db": 33.26017124286633
+    }
+  },
+  {
+    "node_id": 153,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_153_weight.txt",
+    "num_elements": 2048,
+    "symmetric": {
+      "scale": 0.010550409790099137,
+      "zero_point": 0,
+      "max_err": 0.005270734429359436,
+      "cosine_sim": 0.9999678134918213,
+      "sqnr_db": 41.92412099659155
+    },
+    "asymmetric": {
+      "scale": 0.010434823877671185,
+      "zero_point": -1,
+      "max_err": 0.005215466022491455,
+      "cosine_sim": 0.9999680519104004,
+      "sqnr_db": 41.93276397716072
+    }
+  },
+  {
+    "node_id": 153,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_153_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.028705298431276335,
+      "zero_point": 0,
+      "max_err": 0.013516545295715332,
+      "cosine_sim": 0.9999882578849792,
+      "sqnr_db": 46.26700528995702
+    },
+    "asymmetric": {
+      "scale": 0.02468887403899548,
+      "zero_point": 20,
+      "max_err": 0.011900663375854492,
+      "cosine_sim": 0.9999932050704956,
+      "sqnr_db": 48.565010028341355
+    }
+  },
+  {
+    "node_id": 158,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_158_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.01586956677474375,
+      "zero_point": 0,
+      "max_err": 0.007140815258026123,
+      "cosine_sim": 0.999988853931427,
+      "sqnr_db": 46.07301491157206
+    },
+    "asymmetric": {
+      "scale": 0.013445137061324774,
+      "zero_point": 22,
+      "max_err": 0.00607454776763916,
+      "cosine_sim": 0.9999895095825195,
+      "sqnr_db": 46.78121607959743
+    }
+  },
+  {
+    "node_id": 161,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_161_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.012846810611214225,
+      "zero_point": 0,
+      "max_err": 0.006401717662811279,
+      "cosine_sim": 0.9999884963035583,
+      "sqnr_db": 46.347970042268436
+    },
+    "asymmetric": {
+      "scale": 0.011906097916995777,
+      "zero_point": -10,
+      "max_err": 0.005543608218431473,
+      "cosine_sim": 0.9999939799308777,
+      "sqnr_db": 48.80398683669397
+    }
+  },
+  {
+    "node_id": 152,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_152_weight.txt",
+    "num_elements": 2048,
+    "symmetric": {
+      "scale": 0.004925661199674832,
+      "zero_point": 0,
+      "max_err": 0.0024614185094833374,
+      "cosine_sim": 0.999945342540741,
+      "sqnr_db": 39.61914492639462
+    },
+    "asymmetric": {
+      "scale": 0.004616097842945772,
+      "zero_point": 8,
+      "max_err": 0.0023052729666233063,
+      "cosine_sim": 0.9999537467956543,
+      "sqnr_db": 40.33145260601992
+    }
+  },
+  {
+    "node_id": 158,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_158_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.007260181303099384,
+      "zero_point": 0,
+      "max_err": 0.003629907965660095,
+      "cosine_sim": 0.9998815655708313,
+      "sqnr_db": 36.25713239404133
+    },
+    "asymmetric": {
+      "scale": 0.007036372727038814,
+      "zero_point": -4,
+      "max_err": 0.0035180000122636557,
+      "cosine_sim": 0.9998893141746521,
+      "sqnr_db": 36.550982013613705
+    }
+  },
+  {
+    "node_id": 148,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_148_weight.txt",
+    "num_elements": 49152,
+    "symmetric": {
+      "scale": 0.011625913184458814,
+      "zero_point": 0,
+      "max_err": 0.005812652409076691,
+      "cosine_sim": 0.9993765354156494,
+      "sqnr_db": 29.054559505465996
+    },
+    "asymmetric": {
+      "scale": 0.011272882480247349,
+      "zero_point": 3,
+      "max_err": 0.0056364089250564575,
+      "cosine_sim": 0.9994197487831116,
+      "sqnr_db": 29.335503377932007
+    }
+  },
+  {
+    "node_id": 161,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_13_c3k2/node_161_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.00621393721873366,
+      "zero_point": 0,
+      "max_err": 0.003106817603111267,
+      "cosine_sim": 0.999835729598999,
+      "sqnr_db": 34.84208253908654
+    },
+    "asymmetric": {
+      "scale": 0.005277105873706294,
+      "zero_point": -23,
+      "max_err": 0.00263851135969162,
+      "cosine_sim": 0.9998835325241089,
+      "sqnr_db": 36.3269395625558
+    }
+  },
+  {
+    "node_id": 165,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_165_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.016718306879358966,
+      "zero_point": 0,
+      "max_err": 0.008311532437801361,
+      "cosine_sim": 0.9999837875366211,
+      "sqnr_db": 44.51715870407896
+    },
+    "asymmetric": {
+      "scale": 0.014433482114006491,
+      "zero_point": 19,
+      "max_err": 0.006716623902320862,
+      "cosine_sim": 0.9999877214431763,
+      "sqnr_db": 46.071376401581944
+    }
+  },
+  {
+    "node_id": 173,
+    "stage": "neck",
+    "module": "module_13_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_13_c3k2/node_173_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.04584544099222018,
+      "zero_point": 0,
+      "max_err": 0.02253544330596924,
+      "cosine_sim": 0.9999746084213257,
+      "sqnr_db": 42.94944300453163
+    },
+    "asymmetric": {
+      "scale": 0.041917247398226866,
+      "zero_point": -12,
+      "max_err": 0.02091240882873535,
+      "cosine_sim": 0.9999769330024719,
+      "sqnr_db": 43.37180010058927
+    }
+  },
+  {
+    "node_id": 140,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_140_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.06411145428034264,
+      "zero_point": 0,
+      "max_err": 0.03174716234207153,
+      "cosine_sim": 0.9999676942825317,
+      "sqnr_db": 41.862084642841744
+    },
+    "asymmetric": {
+      "scale": 0.06075618220310585,
+      "zero_point": -7,
+      "max_err": 0.030348092317581177,
+      "cosine_sim": 0.9999657869338989,
+      "sqnr_db": 41.469133380655336
+    }
+  },
+  {
+    "node_id": 122,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_122_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.08845004885215459,
+      "zero_point": 0,
+      "max_err": 0.044061362743377686,
+      "cosine_sim": 0.9998520016670227,
+      "sqnr_db": 35.27185608665834
+    },
+    "asymmetric": {
+      "scale": 0.0625941650540221,
+      "zero_point": -52,
+      "max_err": 0.03119194507598877,
+      "cosine_sim": 0.9999130368232727,
+      "sqnr_db": 37.57127686152237
+    }
+  },
+  {
+    "node_id": 128,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_128_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.006887433097118468,
+      "zero_point": 0,
+      "max_err": 0.0034364331513643265,
+      "cosine_sim": 0.999906063079834,
+      "sqnr_db": 37.24942937872514
+    },
+    "asymmetric": {
+      "scale": 0.005288725507025625,
+      "zero_point": 37,
+      "max_err": 0.00264107808470726,
+      "cosine_sim": 0.9999513030052185,
+      "sqnr_db": 40.11521309913639
+    }
+  },
+  {
+    "node_id": 128,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_128_weight.txt",
+    "num_elements": 1152,
+    "symmetric": {
+      "scale": 0.015650031134838194,
+      "zero_point": 0,
+      "max_err": 0.007813122123479843,
+      "cosine_sim": 0.9998775124549866,
+      "sqnr_db": 36.10683460803449
+    },
+    "asymmetric": {
+      "scale": 0.015216839079763376,
+      "zero_point": -4,
+      "max_err": 0.007600839715451002,
+      "cosine_sim": 0.999889612197876,
+      "sqnr_db": 36.54982614676434
+    }
+  },
+  {
+    "node_id": 137,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_137_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.02303003138444555,
+      "zero_point": 0,
+      "max_err": 0.011390209197998047,
+      "cosine_sim": 0.9999927282333374,
+      "sqnr_db": 48.37773249502504
+    },
+    "asymmetric": {
+      "scale": 0.009988599898768406,
+      "zero_point": 127,
+      "max_err": 0.37772107124328613,
+      "cosine_sim": 0.9995645880699158,
+      "sqnr_db": 30.147658181401255
+    }
+  },
+  {
+    "node_id": 137,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_137_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.0033171024378829115,
+      "zero_point": 0,
+      "max_err": 0.0016585513949394226,
+      "cosine_sim": 0.9998856782913208,
+      "sqnr_db": 36.409848718286995
+    },
+    "asymmetric": {
+      "scale": 0.003163447099573472,
+      "zero_point": 5,
+      "max_err": 0.0015817098319530487,
+      "cosine_sim": 0.9998940229415894,
+      "sqnr_db": 36.762065364059424
+    }
+  },
+  {
+    "node_id": 118,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_118_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.0381426135386069,
+      "zero_point": 0,
+      "max_err": 0.019060373306274414,
+      "cosine_sim": 0.9999693036079407,
+      "sqnr_db": 42.08978009273675
+    },
+    "asymmetric": {
+      "scale": 0.0323217326519536,
+      "zero_point": 22,
+      "max_err": 0.01610386371612549,
+      "cosine_sim": 0.999980092048645,
+      "sqnr_db": 43.95490817734968
+    }
+  },
+  {
+    "node_id": 118,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_118_weight.txt",
+    "num_elements": 65536,
+    "symmetric": {
+      "scale": 0.011540913206385815,
+      "zero_point": 0,
+      "max_err": 0.0057703107595443726,
+      "cosine_sim": 0.9996237754821777,
+      "sqnr_db": 31.207804524476863
+    },
+    "asymmetric": {
+      "scale": 0.010783850912954293,
+      "zero_point": 8,
+      "max_err": 0.00539185106754303,
+      "cosine_sim": 0.9996676445007324,
+      "sqnr_db": 31.808714655356923
+    }
+  },
+  {
+    "node_id": 135,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_135_weight.txt",
+    "num_elements": 16384,
+    "symmetric": {
+      "scale": 0.00606920493869331,
+      "zero_point": 0,
+      "max_err": 0.003034360706806183,
+      "cosine_sim": 0.9996929168701172,
+      "sqnr_db": 32.11040329312292
+    },
+    "asymmetric": {
+      "scale": 0.0056268981858795765,
+      "zero_point": -10,
+      "max_err": 0.0028133168816566467,
+      "cosine_sim": 0.9997391700744629,
+      "sqnr_db": 32.829115972543484
+    }
+  },
+  {
+    "node_id": 135,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_135_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.007337937204856572,
+      "zero_point": 0,
+      "max_err": 0.0036648809909820557,
+      "cosine_sim": 0.9999591112136841,
+      "sqnr_db": 40.86343915045413
+    },
+    "asymmetric": {
+      "scale": 0.005564027557186052,
+      "zero_point": 39,
+      "max_err": 0.0027465373277664185,
+      "cosine_sim": 0.9999784827232361,
+      "sqnr_db": 43.66914522959558
+    }
+  },
+  {
+    "node_id": 143,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "bias",
+    "filepath": "weight/neck/module_10_c2psa/node_143_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.026919259799747016,
+      "zero_point": 0,
+      "max_err": 0.0134202241897583,
+      "cosine_sim": 0.9999842643737793,
+      "sqnr_db": 44.93987905617458
+    },
+    "asymmetric": {
+      "scale": 0.02175559997558594,
+      "zero_point": 29,
+      "max_err": 0.01086127758026123,
+      "cosine_sim": 0.9999901652336121,
+      "sqnr_db": 47.02214528693198
+    }
+  },
+  {
+    "node_id": 122,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_122_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.007971677254504107,
+      "zero_point": 0,
+      "max_err": 0.003985799849033356,
+      "cosine_sim": 0.9998385906219482,
+      "sqnr_db": 34.93247316048263
+    },
+    "asymmetric": {
+      "scale": 0.0075884353880788765,
+      "zero_point": -6,
+      "max_err": 0.003794163465499878,
+      "cosine_sim": 0.9998540282249451,
+      "sqnr_db": 35.35083880996103
+    }
+  },
+  {
+    "node_id": 143,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_143_weight.txt",
+    "num_elements": 65536,
+    "symmetric": {
+      "scale": 0.003924511783704983,
+      "zero_point": 0,
+      "max_err": 0.001962188631296158,
+      "cosine_sim": 0.9997692704200745,
+      "sqnr_db": 33.34024665092675
+    },
+    "asymmetric": {
+      "scale": 0.0038639843463897706,
+      "zero_point": 1,
+      "max_err": 0.0019319842103868723,
+      "cosine_sim": 0.9997748732566833,
+      "sqnr_db": 33.46588600902833
+    }
+  },
+  {
+    "node_id": 140,
+    "stage": "neck",
+    "module": "module_10_c2psa",
+    "param_type": "weight",
+    "filepath": "weight/neck/module_10_c2psa/node_140_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.023546960410170667,
+      "zero_point": 0,
+      "max_err": 0.01177215576171875,
+      "cosine_sim": 0.9997112154960632,
+      "sqnr_db": 32.38777421476694
+    },
+    "asymmetric": {
+      "scale": 0.02248712146983427,
+      "zero_point": 5,
+      "max_err": 0.011243149638175964,
+      "cosine_sim": 0.9997342228889465,
+      "sqnr_db": 32.73797205393337
+    }
+  },
+  {
+    "node_id": 74,
+    "stage": "backbone",
+    "module": "module_7_conv_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_7_conv_P5/node_74_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.05713814262330063,
+      "zero_point": 0,
+      "max_err": 0.028528809547424316,
+      "cosine_sim": 0.9999072551727295,
+      "sqnr_db": 37.311885395917756
+    },
+    "asymmetric": {
+      "scale": 0.038651565476959825,
+      "zero_point": 60,
+      "max_err": 0.019237041473388672,
+      "cosine_sim": 0.9999580979347229,
+      "sqnr_db": 40.7345333767251
+    }
+  },
+  {
+    "node_id": 74,
+    "stage": "backbone",
+    "module": "module_7_conv_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_7_conv_P5/node_74_weight.txt",
+    "num_elements": 294912,
+    "symmetric": {
+      "scale": 0.005790614236996869,
+      "zero_point": 0,
+      "max_err": 0.002895299345254898,
+      "cosine_sim": 0.9991925954818726,
+      "sqnr_db": 27.91999899575956
+    },
+    "asymmetric": {
+      "scale": 0.00554417652242324,
+      "zero_point": 5,
+      "max_err": 0.0027720630168914795,
+      "cosine_sim": 0.9992643594741821,
+      "sqnr_db": 28.305434783755334
+    }
+  },
+  {
+    "node_id": 42,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_42_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.025416685840276284,
+      "zero_point": 0,
+      "max_err": 0.012607336044311523,
+      "cosine_sim": 0.9999843239784241,
+      "sqnr_db": 45.059962605619404
+    },
+    "asymmetric": {
+      "scale": 0.024012004627900964,
+      "zero_point": 6,
+      "max_err": 0.012003660202026367,
+      "cosine_sim": 0.9999852180480957,
+      "sqnr_db": 45.19815695559753
+    }
+  },
+  {
+    "node_id": 52,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_52_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.015345866285909818,
+      "zero_point": 0,
+      "max_err": 0.0076640695333480835,
+      "cosine_sim": 0.9999799728393555,
+      "sqnr_db": 43.93434318079619
+    },
+    "asymmetric": {
+      "scale": 0.014852509779088637,
+      "zero_point": -4,
+      "max_err": 0.007086277008056641,
+      "cosine_sim": 0.9999820590019226,
+      "sqnr_db": 44.40478050759858
+    }
+  },
+  {
+    "node_id": 42,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_42_weight.txt",
+    "num_elements": 16384,
+    "symmetric": {
+      "scale": 0.008733677113150049,
+      "zero_point": 0,
+      "max_err": 0.004366676788777113,
+      "cosine_sim": 0.9997754693031311,
+      "sqnr_db": 33.472525830985
+    },
+    "asymmetric": {
+      "scale": 0.008130400087319169,
+      "zero_point": -9,
+      "max_err": 0.004065198823809624,
+      "cosine_sim": 0.9998059868812561,
+      "sqnr_db": 34.125299189260616
+    }
+  },
+  {
+    "node_id": 67,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_67_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.033440725071223705,
+      "zero_point": 0,
+      "max_err": 0.016543149948120117,
+      "cosine_sim": 0.9999843239784241,
+      "sqnr_db": 44.951895011697765
+    },
+    "asymmetric": {
+      "scale": 0.03192323983884325,
+      "zero_point": -6,
+      "max_err": 0.01579129695892334,
+      "cosine_sim": 0.9999818801879883,
+      "sqnr_db": 44.326845508235586
+    }
+  },
+  {
+    "node_id": 46,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_46_weight.txt",
+    "num_elements": 2048,
+    "symmetric": {
+      "scale": 0.004980314904310572,
+      "zero_point": 0,
+      "max_err": 0.002489723265171051,
+      "cosine_sim": 0.999916136264801,
+      "sqnr_db": 37.75389638046465
+    },
+    "asymmetric": {
+      "scale": 0.004405611753463745,
+      "zero_point": -17,
+      "max_err": 0.0022000372409820557,
+      "cosine_sim": 0.9999347925186157,
+      "sqnr_db": 38.854405883991454
+    }
+  },
+  {
+    "node_id": 47,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_47_weight.txt",
+    "num_elements": 2048,
+    "symmetric": {
+      "scale": 0.020469393317155013,
+      "zero_point": 0,
+      "max_err": 0.010234549641609192,
+      "cosine_sim": 0.9998195767402649,
+      "sqnr_db": 34.42468826531033
+    },
+    "asymmetric": {
+      "scale": 0.01968107036515778,
+      "zero_point": 4,
+      "max_err": 0.009837955236434937,
+      "cosine_sim": 0.9998316764831543,
+      "sqnr_db": 34.72976147172905
+    }
+  },
+  {
+    "node_id": 67,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_67_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.005827299253208431,
+      "zero_point": 0,
+      "max_err": 0.0029132962226867676,
+      "cosine_sim": 0.9999060034751892,
+      "sqnr_db": 37.263637846157955
+    },
+    "asymmetric": {
+      "scale": 0.005605850967706418,
+      "zero_point": -5,
+      "max_err": 0.002801954746246338,
+      "cosine_sim": 0.9999161958694458,
+      "sqnr_db": 37.75078805410891
+    }
+  },
+  {
+    "node_id": 62,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_62_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.021838032354520063,
+      "zero_point": 0,
+      "max_err": 0.01082274317741394,
+      "cosine_sim": 0.9999937415122986,
+      "sqnr_db": 48.65656435799047
+    },
+    "asymmetric": {
+      "scale": 0.01936933012569652,
+      "zero_point": -16,
+      "max_err": 0.009633898735046387,
+      "cosine_sim": 0.999994695186615,
+      "sqnr_db": 49.715615118835856
+    }
+  },
+  {
+    "node_id": 71,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_71_weight.txt",
+    "num_elements": 24576,
+    "symmetric": {
+      "scale": 0.005001724235654816,
+      "zero_point": 0,
+      "max_err": 0.00250079482793808,
+      "cosine_sim": 0.999849259853363,
+      "sqnr_db": 35.210328772305935
+    },
+    "asymmetric": {
+      "scale": 0.004832784334818522,
+      "zero_point": 3,
+      "max_err": 0.0024162158370018005,
+      "cosine_sim": 0.9998602867126465,
+      "sqnr_db": 35.54456775577408
+    }
+  },
+  {
+    "node_id": 46,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_46_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.012944118244441475,
+      "zero_point": 0,
+      "max_err": 0.006265357136726379,
+      "cosine_sim": 0.9999874234199524,
+      "sqnr_db": 45.82894864074171
+    },
+    "asymmetric": {
+      "scale": 0.008072376484964408,
+      "zero_point": -77,
+      "max_err": 0.004010498523712158,
+      "cosine_sim": 0.9999944567680359,
+      "sqnr_db": 49.57088804726284
+    }
+  },
+  {
+    "node_id": 52,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_52_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.008539701071311169,
+      "zero_point": 0,
+      "max_err": 0.004269003868103027,
+      "cosine_sim": 0.9997949004173279,
+      "sqnr_db": 33.8734517891472
+    },
+    "asymmetric": {
+      "scale": 0.008102333545684815,
+      "zero_point": 6,
+      "max_err": 0.004050999879837036,
+      "cosine_sim": 0.9998176693916321,
+      "sqnr_db": 34.37656418654783
+    }
+  },
+  {
+    "node_id": 47,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_47_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.01933759779442014,
+      "zero_point": 0,
+      "max_err": 0.009159564971923828,
+      "cosine_sim": 0.9999884366989136,
+      "sqnr_db": 46.204540943443405
+    },
+    "asymmetric": {
+      "scale": 0.016971560553008434,
+      "zero_point": 17,
+      "max_err": 0.00836271047592163,
+      "cosine_sim": 0.9999907612800598,
+      "sqnr_db": 47.28972048986276
+    }
+  },
+  {
+    "node_id": 62,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_62_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.006921189037833627,
+      "zero_point": 0,
+      "max_err": 0.003459487110376358,
+      "cosine_sim": 0.9998733401298523,
+      "sqnr_db": 35.96103338506572
+    },
+    "asymmetric": {
+      "scale": 0.006705984414792528,
+      "zero_point": -4,
+      "max_err": 0.0033527836203575134,
+      "cosine_sim": 0.9998800158500671,
+      "sqnr_db": 36.197778666530645
+    }
+  },
+  {
+    "node_id": 59,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_59_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.0035736457569392646,
+      "zero_point": 0,
+      "max_err": 0.001786811277270317,
+      "cosine_sim": 0.9999120235443115,
+      "sqnr_db": 37.54107331045312
+    },
+    "asymmetric": {
+      "scale": 0.003555051018210018,
+      "zero_point": 0,
+      "max_err": 0.0017773136496543884,
+      "cosine_sim": 0.9999125599861145,
+      "sqnr_db": 37.55843309770816
+    }
+  },
+  {
+    "node_id": 55,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_55_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.01341448055477593,
+      "zero_point": 0,
+      "max_err": 0.006660938262939453,
+      "cosine_sim": 0.9999892711639404,
+      "sqnr_db": 46.66269851903907
+    },
+    "asymmetric": {
+      "scale": 0.011240258871340284,
+      "zero_point": 24,
+      "max_err": 0.0055127739906311035,
+      "cosine_sim": 0.9999921321868896,
+      "sqnr_db": 47.922285936581666
+    }
+  },
+  {
+    "node_id": 71,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_71_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.014384204947103666,
+      "zero_point": 0,
+      "max_err": 0.00715714693069458,
+      "cosine_sim": 0.9999843239784241,
+      "sqnr_db": 45.02026180302862
+    },
+    "asymmetric": {
+      "scale": 0.013167729564741546,
+      "zero_point": -12,
+      "max_err": 0.00655442476272583,
+      "cosine_sim": 0.9999875426292419,
+      "sqnr_db": 46.02943383538968
+    }
+  },
+  {
+    "node_id": 55,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_55_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.005035865963913325,
+      "zero_point": 0,
+      "max_err": 0.0025176778435707092,
+      "cosine_sim": 0.9998089671134949,
+      "sqnr_db": 34.174065984680844
+    },
+    "asymmetric": {
+      "scale": 0.0044579567862491985,
+      "zero_point": -16,
+      "max_err": 0.0022280067205429077,
+      "cosine_sim": 0.9998502731323242,
+      "sqnr_db": 35.239219243737914
+    }
+  },
+  {
+    "node_id": 59,
+    "stage": "backbone",
+    "module": "module_6_c3k2_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_6_c3k2_P4/node_59_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.01621540888087956,
+      "zero_point": 0,
+      "max_err": 0.007879376411437988,
+      "cosine_sim": 0.999988853931427,
+      "sqnr_db": 46.01668628893669
+    },
+    "asymmetric": {
+      "scale": 0.013403642878812901,
+      "zero_point": -27,
+      "max_err": 0.0063773393630981445,
+      "cosine_sim": 0.9999927878379822,
+      "sqnr_db": 48.35920203036265
+    }
+  },
+  {
+    "node_id": 39,
+    "stage": "backbone",
+    "module": "module_5_conv_P4",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_5_conv_P4/node_39_weight.txt",
+    "num_elements": 147456,
+    "symmetric": {
+      "scale": 0.007091283328889862,
+      "zero_point": 0,
+      "max_err": 0.00354558601975441,
+      "cosine_sim": 0.9989041686058044,
+      "sqnr_db": 26.553516808391787
+    },
+    "asymmetric": {
+      "scale": 0.005832564597036324,
+      "zero_point": -27,
+      "max_err": 0.002916257828474045,
+      "cosine_sim": 0.9992579221725464,
+      "sqnr_db": 28.24958179181444
+    }
+  },
+  {
+    "node_id": 39,
+    "stage": "backbone",
+    "module": "module_5_conv_P4",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_5_conv_P4/node_39_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.02130971743365911,
+      "zero_point": 0,
+      "max_err": 0.01048898696899414,
+      "cosine_sim": 0.9999836087226868,
+      "sqnr_db": 44.8246183899319
+    },
+    "asymmetric": {
+      "scale": 0.01774454537559958,
+      "zero_point": -26,
+      "max_err": 0.008837729692459106,
+      "cosine_sim": 0.9999880194664001,
+      "sqnr_db": 46.199919251335544
+    }
+  },
+  {
+    "node_id": 0,
+    "stage": "backbone",
+    "module": "module_0_conv_P1",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_0_conv_P1/node_0_weight.txt",
+    "num_elements": 432,
+    "symmetric": {
+      "scale": 0.2925410833884412,
+      "zero_point": 0,
+      "max_err": 0.14625263214111328,
+      "cosine_sim": 0.9999256134033203,
+      "sqnr_db": 38.26571668234392
+    },
+    "asymmetric": {
+      "scale": 0.257894837622549,
+      "zero_point": 16,
+      "max_err": 0.12893009185791016,
+      "cosine_sim": 0.9999358654022217,
+      "sqnr_db": 38.88302561415002
+    }
+  },
+  {
+    "node_id": 0,
+    "stage": "backbone",
+    "module": "module_0_conv_P1",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_0_conv_P1/node_0_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.17990634948249876,
+      "zero_point": 0,
+      "max_err": 0.08339953422546387,
+      "cosine_sim": 0.9999770522117615,
+      "sqnr_db": 43.3381703931409
+    },
+    "asymmetric": {
+      "scale": 0.15259474960027958,
+      "zero_point": 22,
+      "max_err": 0.07197016477584839,
+      "cosine_sim": 0.9999770522117615,
+      "sqnr_db": 43.37894323498944
+    }
+  },
+  {
+    "node_id": 18,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_18_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.04554895340927004,
+      "zero_point": 0,
+      "max_err": 0.022394955158233643,
+      "cosine_sim": 0.9999901056289673,
+      "sqnr_db": 46.75979865396507
+    },
+    "asymmetric": {
+      "scale": 0.03288974574967927,
+      "zero_point": -49,
+      "max_err": 0.015979766845703125,
+      "cosine_sim": 0.9999943375587463,
+      "sqnr_db": 49.39834025597772
+    }
+  },
+  {
+    "node_id": 10,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_10_bias.txt",
+    "num_elements": 8,
+    "symmetric": {
+      "scale": 0.011480291058698038,
+      "zero_point": 0,
+      "max_err": 0.004217386245727539,
+      "cosine_sim": 0.9999962449073792,
+      "sqnr_db": 50.75575271948968
+    },
+    "asymmetric": {
+      "scale": 0.006703568439857632,
+      "zero_point": -90,
+      "max_err": 0.0033226311206817627,
+      "cosine_sim": 0.9999964237213135,
+      "sqnr_db": 51.10189483579009
+    }
+  },
+  {
+    "node_id": 6,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_6_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.09323599207119679,
+      "zero_point": 0,
+      "max_err": 0.041303157806396484,
+      "cosine_sim": 0.9999746084213257,
+      "sqnr_db": 42.92243490440136
+    },
+    "asymmetric": {
+      "scale": 0.08508775374468636,
+      "zero_point": -12,
+      "max_err": 0.04040718078613281,
+      "cosine_sim": 0.99997878074646,
+      "sqnr_db": 43.721039154569766
+    }
+  },
+  {
+    "node_id": 13,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_13_weight.txt",
+    "num_elements": 1152,
+    "symmetric": {
+      "scale": 0.10567349711741049,
+      "zero_point": 0,
+      "max_err": 0.05282299965620041,
+      "cosine_sim": 0.9998221397399902,
+      "sqnr_db": 34.49136950741407
+    },
+    "asymmetric": {
+      "scale": 0.09375641766716453,
+      "zero_point": 15,
+      "max_err": 0.04685020446777344,
+      "cosine_sim": 0.9998655319213867,
+      "sqnr_db": 35.706448914073356
+    }
+  },
+  {
+    "node_id": 6,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_6_weight.txt",
+    "num_elements": 1024,
+    "symmetric": {
+      "scale": 0.011221708275201752,
+      "zero_point": 0,
+      "max_err": 0.005609999876469374,
+      "cosine_sim": 0.9998685717582703,
+      "sqnr_db": 35.798070944505845
+    },
+    "asymmetric": {
+      "scale": 0.010316419601440429,
+      "zero_point": 10,
+      "max_err": 0.005155419465154409,
+      "cosine_sim": 0.9998845458030701,
+      "sqnr_db": 36.364263908834
+    }
+  },
+  {
+    "node_id": 13,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_13_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.05724098550991749,
+      "zero_point": 0,
+      "max_err": 0.028361886739730835,
+      "cosine_sim": 0.9999812841415405,
+      "sqnr_db": 44.25640636595744
+    },
+    "asymmetric": {
+      "scale": 0.04089430640725528,
+      "zero_point": -51,
+      "max_err": 0.020271390676498413,
+      "cosine_sim": 0.999988853931427,
+      "sqnr_db": 46.41602830477159
+    }
+  },
+  {
+    "node_id": 18,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_18_weight.txt",
+    "num_elements": 3072,
+    "symmetric": {
+      "scale": 0.010177260308753787,
+      "zero_point": 0,
+      "max_err": 0.005087822675704956,
+      "cosine_sim": 0.9997817277908325,
+      "sqnr_db": 33.594194429001185
+    },
+    "asymmetric": {
+      "scale": 0.008823655165877997,
+      "zero_point": -19,
+      "max_err": 0.0044088214635849,
+      "cosine_sim": 0.999834418296814,
+      "sqnr_db": 34.79841661566304
+    }
+  },
+  {
+    "node_id": 10,
+    "stage": "backbone",
+    "module": "module_2_c3k2_P2",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_2_c3k2_P2/node_10_weight.txt",
+    "num_elements": 1152,
+    "symmetric": {
+      "scale": 0.0010157165330226027,
+      "zero_point": 0,
+      "max_err": 0.0005065351724624634,
+      "cosine_sim": 0.9998518228530884,
+      "sqnr_db": 35.281930134256314
+    },
+    "asymmetric": {
+      "scale": 0.0008600156973390019,
+      "zero_point": -23,
+      "max_err": 0.0004299059510231018,
+      "cosine_sim": 0.9998957514762878,
+      "sqnr_db": 36.805668520046396
+    }
+  },
+  {
+    "node_id": 31,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_31_weight.txt",
+    "num_elements": 4608,
+    "symmetric": {
+      "scale": 0.006097850367778868,
+      "zero_point": 0,
+      "max_err": 0.003047700971364975,
+      "cosine_sim": 0.999874472618103,
+      "sqnr_db": 36.00411984918773
+    },
+    "asymmetric": {
+      "scale": 0.005357254953945384,
+      "zero_point": 17,
+      "max_err": 0.0026776641607284546,
+      "cosine_sim": 0.9999059438705444,
+      "sqnr_db": 37.253750491030246
+    }
+  },
+  {
+    "node_id": 28,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_28_weight.txt",
+    "num_elements": 4608,
+    "symmetric": {
+      "scale": 0.004214472658052219,
+      "zero_point": 0,
+      "max_err": 0.0021071434020996094,
+      "cosine_sim": 0.9998694062232971,
+      "sqnr_db": 35.831079523710315
+    },
+    "asymmetric": {
+      "scale": 0.0038252079019359514,
+      "zero_point": 12,
+      "max_err": 0.001912376843392849,
+      "cosine_sim": 0.9998935461044312,
+      "sqnr_db": 36.71355288544816
+    }
+  },
+  {
+    "node_id": 24,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_24_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.03594682723518432,
+      "zero_point": 0,
+      "max_err": 0.017452523112297058,
+      "cosine_sim": 0.9999808669090271,
+      "sqnr_db": 44.1336715657107
+    },
+    "asymmetric": {
+      "scale": 0.030455866981955137,
+      "zero_point": -23,
+      "max_err": 0.014742136001586914,
+      "cosine_sim": 0.9999891519546509,
+      "sqnr_db": 46.63602663366084
+    }
+  },
+  {
+    "node_id": 36,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_36_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.03347594343771146,
+      "zero_point": 0,
+      "max_err": 0.016698598861694336,
+      "cosine_sim": 0.9999823570251465,
+      "sqnr_db": 44.344878984001035
+    },
+    "asymmetric": {
+      "scale": 0.03138747776255888,
+      "zero_point": -8,
+      "max_err": 0.015431404113769531,
+      "cosine_sim": 0.9999829530715942,
+      "sqnr_db": 44.68262877798246
+    }
+  },
+  {
+    "node_id": 24,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_24_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.00993462998097337,
+      "zero_point": 0,
+      "max_err": 0.004966630134731531,
+      "cosine_sim": 0.999825119972229,
+      "sqnr_db": 34.55667070542304
+    },
+    "asymmetric": {
+      "scale": 0.009216462864595302,
+      "zero_point": -10,
+      "max_err": 0.004608049988746643,
+      "cosine_sim": 0.9998563528060913,
+      "sqnr_db": 35.40290991786705
+    }
+  },
+  {
+    "node_id": 28,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_28_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.02481042493985394,
+      "zero_point": 0,
+      "max_err": 0.012120962142944336,
+      "cosine_sim": 0.9999940395355225,
+      "sqnr_db": 49.26244431607855
+    },
+    "asymmetric": {
+      "scale": 0.01642573721268598,
+      "zero_point": -65,
+      "max_err": 0.007555246353149414,
+      "cosine_sim": 0.9999971389770508,
+      "sqnr_db": 52.418493226495045
+    }
+  },
+  {
+    "node_id": 36,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_36_weight.txt",
+    "num_elements": 12288,
+    "symmetric": {
+      "scale": 0.005918432877758357,
+      "zero_point": 0,
+      "max_err": 0.0029591768980026245,
+      "cosine_sim": 0.999916136264801,
+      "sqnr_db": 37.74420699538057
+    },
+    "asymmetric": {
+      "scale": 0.005414294027814678,
+      "zero_point": 11,
+      "max_err": 0.0027070604264736176,
+      "cosine_sim": 0.9999294281005859,
+      "sqnr_db": 38.51277958667921
+    }
+  },
+  {
+    "node_id": 31,
+    "stage": "backbone",
+    "module": "module_4_c3k2_P3",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_4_c3k2_P3/node_31_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.027877779457512804,
+      "zero_point": 0,
+      "max_err": 0.013648629188537598,
+      "cosine_sim": 0.9999904632568359,
+      "sqnr_db": 47.09990277694291
+    },
+    "asymmetric": {
+      "scale": 0.02561936845966414,
+      "zero_point": 10,
+      "max_err": 0.012388229370117188,
+      "cosine_sim": 0.9999905824661255,
+      "sqnr_db": 47.255018156855606
+    }
+  },
+  {
+    "node_id": 106,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_106_weight.txt",
+    "num_elements": 98304,
+    "symmetric": {
+      "scale": 0.00794052796101007,
+      "zero_point": 0,
+      "max_err": 0.003970243036746979,
+      "cosine_sim": 0.9993945360183716,
+      "sqnr_db": 29.14890554158909
+    },
+    "asymmetric": {
+      "scale": 0.006293227625828163,
+      "zero_point": 32,
+      "max_err": 0.003146592527627945,
+      "cosine_sim": 0.9996180534362793,
+      "sqnr_db": 31.18254414782696
+    }
+  },
+  {
+    "node_id": 81,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_81_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.010936299646933248,
+      "zero_point": 0,
+      "max_err": 0.005461215972900391,
+      "cosine_sim": 0.9999878406524658,
+      "sqnr_db": 46.09879504589651
+    },
+    "asymmetric": {
+      "scale": 0.009951466672560748,
+      "zero_point": 12,
+      "max_err": 0.004972875118255615,
+      "cosine_sim": 0.9999889731407166,
+      "sqnr_db": 46.52294793671733
+    }
+  },
+  {
+    "node_id": 102,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_102_weight.txt",
+    "num_elements": 16384,
+    "symmetric": {
+      "scale": 0.005724811178492749,
+      "zero_point": 0,
+      "max_err": 0.0028622671961784363,
+      "cosine_sim": 0.9996741414070129,
+      "sqnr_db": 31.856365161508382
+    },
+    "asymmetric": {
+      "scale": 0.004920466740926107,
+      "zero_point": 20,
+      "max_err": 0.0024599358439445496,
+      "cosine_sim": 0.9997578859329224,
+      "sqnr_db": 33.148149988781356
+    }
+  },
+  {
+    "node_id": 102,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_102_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.02262818907189557,
+      "zero_point": 0,
+      "max_err": 0.011027097702026367,
+      "cosine_sim": 0.9999839067459106,
+      "sqnr_db": 44.88149235478743
+    },
+    "asymmetric": {
+      "scale": 0.019978505489872952,
+      "zero_point": 16,
+      "max_err": 0.009983941912651062,
+      "cosine_sim": 0.9999848008155823,
+      "sqnr_db": 45.164057115920414
+    }
+  },
+  {
+    "node_id": 82,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_82_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.01798529136837937,
+      "zero_point": 0,
+      "max_err": 0.008950769901275635,
+      "cosine_sim": 0.9999842643737793,
+      "sqnr_db": 44.98919106054249
+    },
+    "asymmetric": {
+      "scale": 0.01726411744660022,
+      "zero_point": -5,
+      "max_err": 0.008086621761322021,
+      "cosine_sim": 0.9999877214431763,
+      "sqnr_db": 45.990769292650604
+    }
+  },
+  {
+    "node_id": 77,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_77_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.028378251969344973,
+      "zero_point": 0,
+      "max_err": 0.014113664627075195,
+      "cosine_sim": 0.9999726414680481,
+      "sqnr_db": 42.62794165450224
+    },
+    "asymmetric": {
+      "scale": 0.025105772766412474,
+      "zero_point": 16,
+      "max_err": 0.012549400329589844,
+      "cosine_sim": 0.9999792575836182,
+      "sqnr_db": 43.7854429449728
+    }
+  },
+  {
+    "node_id": 87,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_87_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.01046262200423113,
+      "zero_point": 0,
+      "max_err": 0.0052312444895505905,
+      "cosine_sim": 0.9996083974838257,
+      "sqnr_db": 31.055387249850305
+    },
+    "asymmetric": {
+      "scale": 0.008529905945646997,
+      "zero_point": 28,
+      "max_err": 0.004264811985194683,
+      "cosine_sim": 0.9997380971908569,
+      "sqnr_db": 32.817455643077224
+    }
+  },
+  {
+    "node_id": 106,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_106_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.03139842589070478,
+      "zero_point": 0,
+      "max_err": 0.015647292137145996,
+      "cosine_sim": 0.9999604821205139,
+      "sqnr_db": 40.96606606453382
+    },
+    "asymmetric": {
+      "scale": 0.026604635575238397,
+      "zero_point": -23,
+      "max_err": 0.013288497924804688,
+      "cosine_sim": 0.9999735355377197,
+      "sqnr_db": 42.75690979713164
+    }
+  },
+  {
+    "node_id": 77,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_77_weight.txt",
+    "num_elements": 65536,
+    "symmetric": {
+      "scale": 0.010884291543735294,
+      "zero_point": 0,
+      "max_err": 0.005442127585411072,
+      "cosine_sim": 0.9995400309562683,
+      "sqnr_db": 30.345872505813073
+    },
+    "asymmetric": {
+      "scale": 0.009906745424457625,
+      "zero_point": -13,
+      "max_err": 0.004953309893608093,
+      "cosine_sim": 0.9996206164360046,
+      "sqnr_db": 31.178747676023786
+    }
+  },
+  {
+    "node_id": 94,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_94_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.0027830551459094672,
+      "zero_point": 0,
+      "max_err": 0.0013913940638303757,
+      "cosine_sim": 0.9997326135635376,
+      "sqnr_db": 32.727231395103786
+    },
+    "asymmetric": {
+      "scale": 0.002644141164480471,
+      "zero_point": 6,
+      "max_err": 0.0013220198452472687,
+      "cosine_sim": 0.9997584223747253,
+      "sqnr_db": 33.173945107442904
+    }
+  },
+  {
+    "node_id": 82,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_82_weight.txt",
+    "num_elements": 8192,
+    "symmetric": {
+      "scale": 0.01579562134630098,
+      "zero_point": 0,
+      "max_err": 0.007896184921264648,
+      "cosine_sim": 0.9998409152030945,
+      "sqnr_db": 34.975617187109435
+    },
+    "asymmetric": {
+      "scale": 0.01311948205910477,
+      "zero_point": -26,
+      "max_err": 0.0065596625208854675,
+      "cosine_sim": 0.999889612197876,
+      "sqnr_db": 36.55781175638359
+    }
+  },
+  {
+    "node_id": 87,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_87_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.02283954244898999,
+      "zero_point": 0,
+      "max_err": 0.011300504207611084,
+      "cosine_sim": 0.9999700784683228,
+      "sqnr_db": 42.092816723502565
+    },
+    "asymmetric": {
+      "scale": 0.01708843100304697,
+      "zero_point": -43,
+      "max_err": 0.008365333080291748,
+      "cosine_sim": 0.9999810457229614,
+      "sqnr_db": 44.20165920115443
+    }
+  },
+  {
+    "node_id": 94,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_94_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.017028709096232737,
+      "zero_point": 0,
+      "max_err": 0.008501529693603516,
+      "cosine_sim": 0.9999791383743286,
+      "sqnr_db": 43.716691587964014
+    },
+    "asymmetric": {
+      "scale": 0.01580041576834286,
+      "zero_point": 9,
+      "max_err": 0.007835924625396729,
+      "cosine_sim": 0.999981164932251,
+      "sqnr_db": 44.216863038324945
+    }
+  },
+  {
+    "node_id": 90,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_90_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.007370724452762153,
+      "zero_point": 0,
+      "max_err": 0.0036853402853012085,
+      "cosine_sim": 0.9993162751197815,
+      "sqnr_db": 28.63815817564261
+    },
+    "asymmetric": {
+      "scale": 0.006389086386736701,
+      "zero_point": 19,
+      "max_err": 0.003194432705640793,
+      "cosine_sim": 0.9994877576828003,
+      "sqnr_db": 29.88797196377992
+    }
+  },
+  {
+    "node_id": 81,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_81_weight.txt",
+    "num_elements": 8192,
+    "symmetric": {
+      "scale": 0.0056874409435302255,
+      "zero_point": 0,
+      "max_err": 0.0028416290879249573,
+      "cosine_sim": 0.9998558163642883,
+      "sqnr_db": 35.402452029394404
+    },
+    "asymmetric": {
+      "scale": 0.0055436431192884255,
+      "zero_point": 2,
+      "max_err": 0.0027714967727661133,
+      "cosine_sim": 0.9998617172241211,
+      "sqnr_db": 35.58507030752681
+    }
+  },
+  {
+    "node_id": 90,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_90_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.018036307312372164,
+      "zero_point": 0,
+      "max_err": 0.008856765925884247,
+      "cosine_sim": 0.9999825358390808,
+      "sqnr_db": 44.485736320855416
+    },
+    "asymmetric": {
+      "scale": 0.01720712979634603,
+      "zero_point": -6,
+      "max_err": 0.008394241333007812,
+      "cosine_sim": 0.9999823570251465,
+      "sqnr_db": 44.50920731459863
+    }
+  },
+  {
+    "node_id": 97,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_97_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.058632985813411205,
+      "zero_point": 0,
+      "max_err": 0.029316425323486328,
+      "cosine_sim": 0.9999701380729675,
+      "sqnr_db": 42.19986724217751
+    },
+    "asymmetric": {
+      "scale": 0.03162985175263648,
+      "zero_point": -108,
+      "max_err": 0.015270233154296875,
+      "cosine_sim": 0.9999917149543762,
+      "sqnr_db": 47.73035026874145
+    }
+  },
+  {
+    "node_id": 97,
+    "stage": "backbone",
+    "module": "module_8_c3k2_P5",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_8_c3k2_P5/node_97_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.011480637422696812,
+      "zero_point": 0,
+      "max_err": 0.005740106105804443,
+      "cosine_sim": 0.9989196062088013,
+      "sqnr_db": 26.650355099916105
+    },
+    "asymmetric": {
+      "scale": 0.008631752752790264,
+      "zero_point": 41,
+      "max_err": 0.004315763711929321,
+      "cosine_sim": 0.9993993639945984,
+      "sqnr_db": 29.190400315374415
+    }
+  },
+  {
+    "node_id": 21,
+    "stage": "backbone",
+    "module": "module_3_conv_P3",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_3_conv_P3/node_21_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.03372776977659211,
+      "zero_point": 0,
+      "max_err": 0.01649075746536255,
+      "cosine_sim": 0.9999809265136719,
+      "sqnr_db": 44.16964980563432
+    },
+    "asymmetric": {
+      "scale": 0.021452928524391325,
+      "zero_point": -73,
+      "max_err": 0.010570764541625977,
+      "cosine_sim": 0.999991774559021,
+      "sqnr_db": 47.82120972385086
+    }
+  },
+  {
+    "node_id": 21,
+    "stage": "backbone",
+    "module": "module_3_conv_P3",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_3_conv_P3/node_21_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.0014711417785779697,
+      "zero_point": 0,
+      "max_err": 0.0007355674169957638,
+      "cosine_sim": 0.9998437166213989,
+      "sqnr_db": 35.05521581383718
+    },
+    "asymmetric": {
+      "scale": 0.0014514902058769675,
+      "zero_point": 1,
+      "max_err": 0.0007256846874952316,
+      "cosine_sim": 0.9998490810394287,
+      "sqnr_db": 35.19157652874101
+    }
+  },
+  {
+    "node_id": 3,
+    "stage": "backbone",
+    "module": "module_1_conv_P2",
+    "param_type": "bias",
+    "filepath": "weight/backbone/module_1_conv_P2/node_3_bias.txt",
+    "num_elements": 32,
+    "symmetric": {
+      "scale": 0.15216509000522885,
+      "zero_point": 0,
+      "max_err": 0.0749693512916565,
+      "cosine_sim": 0.9999634027481079,
+      "sqnr_db": 41.127891193946965
+    },
+    "asymmetric": {
+      "scale": 0.1073302661671358,
+      "zero_point": -53,
+      "max_err": 0.05357837677001953,
+      "cosine_sim": 0.9999793171882629,
+      "sqnr_db": 43.826181308648955
+    }
+  },
+  {
+    "node_id": 3,
+    "stage": "backbone",
+    "module": "module_1_conv_P2",
+    "param_type": "weight",
+    "filepath": "weight/backbone/module_1_conv_P2/node_3_weight.txt",
+    "num_elements": 4608,
+    "symmetric": {
+      "scale": 0.01513554355290931,
+      "zero_point": 0,
+      "max_err": 0.007565051317214966,
+      "cosine_sim": 0.9998174905776978,
+      "sqnr_db": 34.37450798777055
+    },
+    "asymmetric": {
+      "scale": 0.013822412023357317,
+      "zero_point": 11,
+      "max_err": 0.006908528506755829,
+      "cosine_sim": 0.9998537302017212,
+      "sqnr_db": 35.32864097508383
+    }
+  },
+  {
+    "node_id": 327,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_327_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.005761740245218352,
+      "zero_point": 0,
+      "max_err": 0.002880815416574478,
+      "cosine_sim": 0.9997870922088623,
+      "sqnr_db": 33.70602071692355
+    },
+    "asymmetric": {
+      "scale": 0.005364647098616057,
+      "zero_point": 8,
+      "max_err": 0.0026822946965694427,
+      "cosine_sim": 0.9998161792755127,
+      "sqnr_db": 34.33386177996336
+    }
+  },
+  {
+    "node_id": 315,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_315_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.020544221082071618,
+      "zero_point": 0,
+      "max_err": 0.010161999613046646,
+      "cosine_sim": 0.9998871684074402,
+      "sqnr_db": 36.46069806577297
+    },
+    "asymmetric": {
+      "scale": 0.015686329673318303,
+      "zero_point": -39,
+      "max_err": 0.007678240537643433,
+      "cosine_sim": 0.9999323487281799,
+      "sqnr_db": 38.62245235197345
+    }
+  },
+  {
+    "node_id": 284,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_284_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.02403420538414182,
+      "zero_point": 0,
+      "max_err": 0.012008905410766602,
+      "cosine_sim": 0.9999820590019226,
+      "sqnr_db": 44.44572186959793
+    },
+    "asymmetric": {
+      "scale": 0.020473941167195638,
+      "zero_point": 21,
+      "max_err": 0.010221719741821289,
+      "cosine_sim": 0.999985933303833,
+      "sqnr_db": 45.51731972205465
+    }
+  },
+  {
+    "node_id": 296,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_296_weight.txt",
+    "num_elements": 73728,
+    "symmetric": {
+      "scale": 0.0074344723243413005,
+      "zero_point": 0,
+      "max_err": 0.0037171393632888794,
+      "cosine_sim": 0.9995554685592651,
+      "sqnr_db": 30.525587506978276
+    },
+    "asymmetric": {
+      "scale": 0.0073395058220508055,
+      "zero_point": 1,
+      "max_err": 0.003669552505016327,
+      "cosine_sim": 0.9995683431625366,
+      "sqnr_db": 30.62822137637392
+    }
+  },
+  {
+    "node_id": 309,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_309_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.031055857816080407,
+      "zero_point": 0,
+      "max_err": 0.01543569564819336,
+      "cosine_sim": 0.9999529123306274,
+      "sqnr_db": 40.2521616970226
+    },
+    "asymmetric": {
+      "scale": 0.02736054495269177,
+      "zero_point": 16,
+      "max_err": 0.013640075922012329,
+      "cosine_sim": 0.9999610781669617,
+      "sqnr_db": 41.08082165192775
+    }
+  },
+  {
+    "node_id": 324,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_324_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.019695826402799353,
+      "zero_point": 0,
+      "max_err": 0.009838104248046875,
+      "cosine_sim": 0.9999783635139465,
+      "sqnr_db": 43.61241343083311
+    },
+    "asymmetric": {
+      "scale": 0.015278337048549279,
+      "zero_point": 36,
+      "max_err": 0.007595717906951904,
+      "cosine_sim": 0.9999868869781494,
+      "sqnr_db": 45.79243110055469
+    }
+  },
+  {
+    "node_id": 327,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_327_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.0068007871860594265,
+      "zero_point": 0,
+      "max_err": 0.003397212829440832,
+      "cosine_sim": 0.9999747276306152,
+      "sqnr_db": 42.97773313476199
+    },
+    "asymmetric": {
+      "scale": 0.005755003760842716,
+      "zero_point": 22,
+      "max_err": 0.002868976444005966,
+      "cosine_sim": 0.9999815821647644,
+      "sqnr_db": 44.28787011598436
+    }
+  },
+  {
+    "node_id": 284,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_284_weight.txt",
+    "num_elements": 98304,
+    "symmetric": {
+      "scale": 0.009143693240608756,
+      "zero_point": 0,
+      "max_err": 0.004571773111820221,
+      "cosine_sim": 0.9998345971107483,
+      "sqnr_db": 34.94015919805517
+    },
+    "asymmetric": {
+      "scale": 0.009037976638943542,
+      "zero_point": -1,
+      "max_err": 0.004518954083323479,
+      "cosine_sim": 0.9998443722724915,
+      "sqnr_db": 35.05935582418238
+    }
+  },
+  {
+    "node_id": 296,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_296_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.0319808261601005,
+      "zero_point": 0,
+      "max_err": 0.01573801040649414,
+      "cosine_sim": 0.9999814629554749,
+      "sqnr_db": 44.28210624642112
+    },
+    "asymmetric": {
+      "scale": 0.027577003778195847,
+      "zero_point": 19,
+      "max_err": 0.01363372802734375,
+      "cosine_sim": 0.9999847412109375,
+      "sqnr_db": 45.170574564178416
+    }
+  },
+  {
+    "node_id": 330,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_330_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.026910960204957975,
+      "zero_point": 0,
+      "max_err": 0.01339792087674141,
+      "cosine_sim": 0.9999533891677856,
+      "sqnr_db": 40.27406793388873
+    },
+    "asymmetric": {
+      "scale": 0.024981549206901998,
+      "zero_point": 9,
+      "max_err": 0.012441746890544891,
+      "cosine_sim": 0.9999577403068542,
+      "sqnr_db": 40.730328666813975
+    }
+  },
+  {
+    "node_id": 324,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_324_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.00847973973732295,
+      "zero_point": 0,
+      "max_err": 0.004239656031131744,
+      "cosine_sim": 0.9997045397758484,
+      "sqnr_db": 32.28427807814613
+    },
+    "asymmetric": {
+      "scale": 0.008040972316966337,
+      "zero_point": 6,
+      "max_err": 0.0040201954543590546,
+      "cosine_sim": 0.9997310638427734,
+      "sqnr_db": 32.70032018593598
+    }
+  },
+  {
+    "node_id": 302,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_302_weight.txt",
+    "num_elements": 73728,
+    "symmetric": {
+      "scale": 0.006856590744078629,
+      "zero_point": 0,
+      "max_err": 0.003428226336836815,
+      "cosine_sim": 0.9995287656784058,
+      "sqnr_db": 30.234733390583823
+    },
+    "asymmetric": {
+      "scale": 0.006373843258502437,
+      "zero_point": 9,
+      "max_err": 0.0031868431251496077,
+      "cosine_sim": 0.9995917677879333,
+      "sqnr_db": 30.883986626829447
+    }
+  },
+  {
+    "node_id": 315,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_315_weight.txt",
+    "num_elements": 1152,
+    "symmetric": {
+      "scale": 0.051645203838198206,
+      "zero_point": 0,
+      "max_err": 0.025803610682487488,
+      "cosine_sim": 0.9999192953109741,
+      "sqnr_db": 37.91231349669474
+    },
+    "asymmetric": {
+      "scale": 0.04882863549625172,
+      "zero_point": 6,
+      "max_err": 0.024364560842514038,
+      "cosine_sim": 0.999929666519165,
+      "sqnr_db": 38.51917647519039
+    }
+  },
+  {
+    "node_id": 302,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_302_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.03166191972146823,
+      "zero_point": 0,
+      "max_err": 0.015777885913848877,
+      "cosine_sim": 0.9999797940254211,
+      "sqnr_db": 43.95241107174054
+    },
+    "asymmetric": {
+      "scale": 0.027907740836049997,
+      "zero_point": -17,
+      "max_err": 0.01378658413887024,
+      "cosine_sim": 0.9999841451644897,
+      "sqnr_db": 45.01060092479843
+    }
+  },
+  {
+    "node_id": 330,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_330_weight.txt",
+    "num_elements": 98304,
+    "symmetric": {
+      "scale": 0.00960888168004554,
+      "zero_point": 0,
+      "max_err": 0.004804236814379692,
+      "cosine_sim": 0.9981706142425537,
+      "sqnr_db": 24.371225527088445
+    },
+    "asymmetric": {
+      "scale": 0.007779439056620878,
+      "zero_point": 29,
+      "max_err": 0.0038896817713975906,
+      "cosine_sim": 0.9988027215003967,
+      "sqnr_db": 26.211512673088265
+    }
+  },
+  {
+    "node_id": 322,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "bias",
+    "filepath": "weight/head/module_22_c3k2/node_322_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.006618519467631663,
+      "zero_point": 0,
+      "max_err": 0.003308843821287155,
+      "cosine_sim": 0.9999666810035706,
+      "sqnr_db": 41.75252874485892
+    },
+    "asymmetric": {
+      "scale": 0.006412894118065927,
+      "zero_point": -4,
+      "max_err": 0.0032018721103668213,
+      "cosine_sim": 0.9999608993530273,
+      "sqnr_db": 41.06784583895479
+    }
+  },
+  {
+    "node_id": 322,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_322_weight.txt",
+    "num_elements": 16384,
+    "symmetric": {
+      "scale": 0.003330999941337766,
+      "zero_point": 0,
+      "max_err": 0.0016650035977363586,
+      "cosine_sim": 0.9998680353164673,
+      "sqnr_db": 35.78807925998064
+    },
+    "asymmetric": {
+      "scale": 0.0033173686149073583,
+      "zero_point": -1,
+      "max_err": 0.0016586314886808395,
+      "cosine_sim": 0.9998703002929688,
+      "sqnr_db": 35.84026901726602
+    }
+  },
+  {
+    "node_id": 309,
+    "stage": "head",
+    "module": "module_22_c3k2",
+    "param_type": "weight",
+    "filepath": "weight/head/module_22_c3k2/node_309_weight.txt",
+    "num_elements": 32768,
+    "symmetric": {
+      "scale": 0.006830795074072409,
+      "zero_point": 0,
+      "max_err": 0.0034153852611780167,
+      "cosine_sim": 0.9997997879981995,
+      "sqnr_db": 33.97945633218764
+    },
+    "asymmetric": {
+      "scale": 0.006693705857968798,
+      "zero_point": -3,
+      "max_err": 0.0033468231558799744,
+      "cosine_sim": 0.999807596206665,
+      "sqnr_db": 34.15983714758395
+    }
+  },
+  {
+    "node_id": 339,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_339_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.027092385479784386,
+      "zero_point": 0,
+      "max_err": 0.013033673167228699,
+      "cosine_sim": 0.9999891519546509,
+      "sqnr_db": 46.49086303565457
+    },
+    "asymmetric": {
+      "scale": 0.025744823381012562,
+      "zero_point": 6,
+      "max_err": 0.012619107961654663,
+      "cosine_sim": 0.9999882578849792,
+      "sqnr_db": 46.26718018631388
+    }
+  },
+  {
+    "node_id": 215,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_215_weight.txt",
+    "num_elements": 9216,
+    "symmetric": {
+      "scale": 0.008378180931872271,
+      "zero_point": 0,
+      "max_err": 0.004188351333141327,
+      "cosine_sim": 0.9992612600326538,
+      "sqnr_db": 28.303174463185307
+    },
+    "asymmetric": {
+      "scale": 0.007053835251752068,
+      "zero_point": 23,
+      "max_err": 0.003526835236698389,
+      "cosine_sim": 0.9994841814041138,
+      "sqnr_db": 29.86341242536492
+    }
+  },
+  {
+    "node_id": 334,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_334_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.09679103460837538,
+      "zero_point": 0,
+      "max_err": 0.04832717776298523,
+      "cosine_sim": 0.9996123909950256,
+      "sqnr_db": 31.102571134095104
+    },
+    "asymmetric": {
+      "scale": 0.07540027207019283,
+      "zero_point": 35,
+      "max_err": 0.03769582509994507,
+      "cosine_sim": 0.9997725486755371,
+      "sqnr_db": 33.41794697826705
+    }
+  },
+  {
+    "node_id": 340,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_340_weight.txt",
+    "num_elements": 16384,
+    "symmetric": {
+      "scale": 0.00478815750812921,
+      "zero_point": 0,
+      "max_err": 0.0023936405777931213,
+      "cosine_sim": 0.9998607635498047,
+      "sqnr_db": 35.548921786165735
+    },
+    "asymmetric": {
+      "scale": 0.003999180419772279,
+      "zero_point": 24,
+      "max_err": 0.0019995644688606262,
+      "cosine_sim": 0.999901533126831,
+      "sqnr_db": 37.06649025933843
+    }
+  },
+  {
+    "node_id": 339,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_339_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.006635031362218181,
+      "zero_point": 0,
+      "max_err": 0.0033140000887215137,
+      "cosine_sim": 0.9994292259216309,
+      "sqnr_db": 29.424961657923735
+    },
+    "asymmetric": {
+      "scale": 0.005762227376302083,
+      "zero_point": -19,
+      "max_err": 0.002880773041397333,
+      "cosine_sim": 0.99957674741745,
+      "sqnr_db": 30.720577160556104
+    }
+  },
+  {
+    "node_id": 243,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_243_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.008916236284210927,
+      "zero_point": 0,
+      "max_err": 0.004456419497728348,
+      "cosine_sim": 0.999894917011261,
+      "sqnr_db": 36.77272669451279
+    },
+    "asymmetric": {
+      "scale": 0.007593211706946878,
+      "zero_point": -22,
+      "max_err": 0.0037963632494211197,
+      "cosine_sim": 0.9999220371246338,
+      "sqnr_db": 38.065605340806854
+    }
+  },
+  {
+    "node_id": 225,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_225_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.004079968441189743,
+      "zero_point": 0,
+      "max_err": 0.0020394697785377502,
+      "cosine_sim": 0.9999608397483826,
+      "sqnr_db": 41.06813768338901
+    },
+    "asymmetric": {
+      "scale": 0.0038336587887184293,
+      "zero_point": -8,
+      "max_err": 0.0019166828133165836,
+      "cosine_sim": 0.9999670386314392,
+      "sqnr_db": 41.81174186317001
+    }
+  },
+  {
+    "node_id": 299,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_299_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.007529173310347429,
+      "zero_point": 0,
+      "max_err": 0.0037644505500793457,
+      "cosine_sim": 0.9999381303787231,
+      "sqnr_db": 39.075772710082425
+    },
+    "asymmetric": {
+      "scale": 0.006273113746269076,
+      "zero_point": -25,
+      "max_err": 0.0031349658966064453,
+      "cosine_sim": 0.9999574422836304,
+      "sqnr_db": 40.69300081992316
+    }
+  },
+  {
+    "node_id": 234,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_234_weight.txt",
+    "num_elements": 576,
+    "symmetric": {
+      "scale": 0.05505933160856953,
+      "zero_point": 0,
+      "max_err": 0.027526000514626503,
+      "cosine_sim": 0.9998135566711426,
+      "sqnr_db": 34.27856663674302
+    },
+    "asymmetric": {
+      "scale": 0.0534265256395527,
+      "zero_point": 3,
+      "max_err": 0.02671024203300476,
+      "cosine_sim": 0.9998282194137573,
+      "sqnr_db": 34.597823928464436
+    }
+  },
+  {
+    "node_id": 334,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_334_bias.txt",
+    "num_elements": 256,
+    "symmetric": {
+      "scale": 0.03966319842601386,
+      "zero_point": 0,
+      "max_err": 0.019639015197753906,
+      "cosine_sim": 0.9999568462371826,
+      "sqnr_db": 40.6416033537125
+    },
+    "asymmetric": {
+      "scale": 0.033625098770739985,
+      "zero_point": 22,
+      "max_err": 0.016621828079223633,
+      "cosine_sim": 0.9999694228172302,
+      "sqnr_db": 42.0582516967501
+    }
+  },
+  {
+    "node_id": 274,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_274_bias.txt",
+    "num_elements": 128,
+    "symmetric": {
+      "scale": 0.06661334000234528,
+      "zero_point": 0,
+      "max_err": 0.0332791805267334,
+      "cosine_sim": 0.9999653100967407,
+      "sqnr_db": 41.580867219021975
+    },
+    "asymmetric": {
+      "scale": 0.05839455735449697,
+      "zero_point": -18,
+      "max_err": 0.02903461456298828,
+      "cosine_sim": 0.9999759197235107,
+      "sqnr_db": 43.0905410896633
+    }
+  },
+  {
+    "node_id": 250,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_250_bias.txt",
+    "num_elements": 1,
+    "symmetric": {
+      "scale": 0.09141240157480315,
+      "zero_point": 0,
+      "max_err": 0.0,
+      "cosine_sim": 1.0,
+      "sqnr_db": 100.0
+    },
+    "asymmetric": {
+      "scale": 1.0,
+      "zero_point": -116,
+      "max_err": 0.390625,
+      "cosine_sim": 1.0,
+      "sqnr_db": 29.460976101770754
+    }
+  },
+  {
+    "node_id": 340,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_340_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.01595832231476551,
+      "zero_point": 0,
+      "max_err": 0.00788891315460205,
+      "cosine_sim": 0.99998539686203,
+      "sqnr_db": 45.30125576006213
+    },
+    "asymmetric": {
+      "scale": 0.01578840741924211,
+      "zero_point": -1,
+      "max_err": 0.007875323295593262,
+      "cosine_sim": 0.9999867081642151,
+      "sqnr_db": 45.69459087587579
+    }
+  },
+  {
+    "node_id": 292,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_292_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.00477527539561114,
+      "zero_point": 0,
+      "max_err": 0.0023508816957473755,
+      "cosine_sim": 0.9999918937683105,
+      "sqnr_db": 47.75101409052108
+    },
+    "asymmetric": {
+      "scale": 0.004550035093344894,
+      "zero_point": -6,
+      "max_err": 0.0022414028644561768,
+      "cosine_sim": 0.999993622303009,
+      "sqnr_db": 48.81797843591273
+    }
+  },
+  {
+    "node_id": 250,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_250_weight.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.0053134250828600306,
+      "zero_point": 0,
+      "max_err": 0.0026123225688934326,
+      "cosine_sim": 0.9999879598617554,
+      "sqnr_db": 46.19749669209715
+    },
+    "asymmetric": {
+      "scale": 0.004522827442954568,
+      "zero_point": 21,
+      "max_err": 0.0022273212671279907,
+      "cosine_sim": 0.999992847442627,
+      "sqnr_db": 48.290080211740836
+    }
+  },
+  {
+    "node_id": 333,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_333_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.024959282612237406,
+      "zero_point": 0,
+      "max_err": 0.01238250732421875,
+      "cosine_sim": 0.999994158744812,
+      "sqnr_db": 49.247756435925524
+    },
+    "asymmetric": {
+      "scale": 0.010308795583014395,
+      "zero_point": -128,
+      "max_err": 0.541085958480835,
+      "cosine_sim": 0.9968159794807434,
+      "sqnr_db": 19.673875043407623
+    }
+  },
+  {
+    "node_id": 351,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_351_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.011176038914778101,
+      "zero_point": 0,
+      "max_err": 0.00556713342666626,
+      "cosine_sim": 0.9999840259552002,
+      "sqnr_db": 44.95931040371175
+    },
+    "asymmetric": {
+      "scale": 0.008220497767130535,
+      "zero_point": -46,
+      "max_err": 0.0040451884269714355,
+      "cosine_sim": 0.9999913573265076,
+      "sqnr_db": 47.34991381007915
+    }
+  },
+  {
+    "node_id": 345,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_345_bias.txt",
+    "num_elements": 4,
+    "symmetric": {
+      "scale": 0.022699307268998756,
+      "zero_point": 0,
+      "max_err": 0.010103940963745117,
+      "cosine_sim": 0.9999980926513672,
+      "sqnr_db": 49.811416928785654
+    },
+    "asymmetric": {
+      "scale": 0.002994787926767387,
+      "zero_point": -128,
+      "max_err": 2.119141101837158,
+      "cosine_sim": 0.9926033020019531,
+      "sqnr_db": 3.2699625355098814
+    }
+  },
+  {
+    "node_id": 243,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_243_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.009731291785953552,
+      "zero_point": 0,
+      "max_err": 0.004811465740203857,
+      "cosine_sim": 0.9999861121177673,
+      "sqnr_db": 45.466315404031576
+    },
+    "asymmetric": {
+      "scale": 0.006706549256455665,
+      "zero_point": -57,
+      "max_err": 0.003310561180114746,
+      "cosine_sim": 0.9999926090240479,
+      "sqnr_db": 48.1633914778132
+    }
+  },
+  {
+    "node_id": 356,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_356_weight.txt",
+    "num_elements": 16800,
+    "symmetric": {
+      "scale": 0.6259842519685039,
+      "zero_point": 0,
+      "max_err": 0.3110237121582031,
+      "cosine_sim": 0.9999908208847046,
+      "sqnr_db": 47.275813793964616
+    },
+    "asymmetric": {
+      "scale": 0.30980392156862746,
+      "zero_point": -128,
+      "max_err": 0.5,
+      "cosine_sim": 0.9999967813491821,
+      "sqnr_db": 52.24289616723772
+    }
+  },
+  {
+    "node_id": 216,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_216_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.06296468344260389,
+      "zero_point": 0,
+      "max_err": 0.03022027015686035,
+      "cosine_sim": 0.9999836683273315,
+      "sqnr_db": 44.846670076931865
+    },
+    "asymmetric": {
+      "scale": 0.03295673248814601,
+      "zero_point": -116,
+      "max_err": 0.016273021697998047,
+      "cosine_sim": 0.9999958872795105,
+      "sqnr_db": 50.89455468056916
+    }
+  },
+  {
+    "node_id": 215,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_215_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.04435392815297044,
+      "zero_point": 0,
+      "max_err": 0.021593093872070312,
+      "cosine_sim": 0.9999927282333374,
+      "sqnr_db": 48.28342969534087
+    },
+    "asymmetric": {
+      "scale": 0.03060718798169903,
+      "zero_point": -57,
+      "max_err": 0.015111923217773438,
+      "cosine_sim": 0.9999966621398926,
+      "sqnr_db": 51.627210219813946
+    }
+  },
+  {
+    "node_id": 233,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_233_weight.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.011303519639443226,
+      "zero_point": 0,
+      "max_err": 0.005616400390863419,
+      "cosine_sim": 0.9999750852584839,
+      "sqnr_db": 43.03318772324811
+    },
+    "asymmetric": {
+      "scale": 0.01036688252991321,
+      "zero_point": -11,
+      "max_err": 0.005175234749913216,
+      "cosine_sim": 0.9999794363975525,
+      "sqnr_db": 43.87286732447397
+    }
+  },
+  {
+    "node_id": 305,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_305_bias.txt",
+    "num_elements": 1,
+    "symmetric": {
+      "scale": 0.08532235002893163,
+      "zero_point": 0,
+      "max_err": 0.0,
+      "cosine_sim": 1.0,
+      "sqnr_db": 100.0
+    },
+    "asymmetric": {
+      "scale": 1.0,
+      "zero_point": -117,
+      "max_err": 0.1640615463256836,
+      "cosine_sim": 1.0,
+      "sqnr_db": 36.39719466361518
+    }
+  },
+  {
+    "node_id": 216,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_216_weight.txt",
+    "num_elements": 576,
+    "symmetric": {
+      "scale": 0.057162724141999494,
+      "zero_point": 0,
+      "max_err": 0.028483569622039795,
+      "cosine_sim": 0.9998347759246826,
+      "sqnr_db": 34.76787437270901
+    },
+    "asymmetric": {
+      "scale": 0.040923141030704276,
+      "zero_point": -50,
+      "max_err": 0.02042698860168457,
+      "cosine_sim": 0.9999120831489563,
+      "sqnr_db": 37.5481389211065
+    }
+  },
+  {
+    "node_id": 224,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_224_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.002754102307041799,
+      "zero_point": 0,
+      "max_err": 0.0013758186250925064,
+      "cosine_sim": 0.9996474981307983,
+      "sqnr_db": 31.50462391276652
+    },
+    "asymmetric": {
+      "scale": 0.002406956869013169,
+      "zero_point": 17,
+      "max_err": 0.0012029568897560239,
+      "cosine_sim": 0.9997326135635376,
+      "sqnr_db": 32.710480714748584
+    }
+  },
+  {
+    "node_id": 292,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_292_weight.txt",
+    "num_elements": 576,
+    "symmetric": {
+      "scale": 0.022645315786046307,
+      "zero_point": 0,
+      "max_err": 0.01130896806716919,
+      "cosine_sim": 0.9999538064002991,
+      "sqnr_db": 40.32975051796627
+    },
+    "asymmetric": {
+      "scale": 0.020098388896268957,
+      "zero_point": -16,
+      "max_err": 0.010049104690551758,
+      "cosine_sim": 0.9999616742134094,
+      "sqnr_db": 41.14442620150786
+    }
+  },
+  {
+    "node_id": 273,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_273_weight.txt",
+    "num_elements": 18432,
+    "symmetric": {
+      "scale": 0.00343489764243599,
+      "zero_point": 0,
+      "max_err": 0.001717306673526764,
+      "cosine_sim": 0.9992399215698242,
+      "sqnr_db": 28.175079727910557
+    },
+    "asymmetric": {
+      "scale": 0.0032195842733570173,
+      "zero_point": 7,
+      "max_err": 0.0016094159800559282,
+      "cosine_sim": 0.9993324279785156,
+      "sqnr_db": 28.74358883303814
+    }
+  },
+  {
+    "node_id": 359,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_359_bias.txt",
+    "num_elements": 1,
+    "symmetric": {
+      "scale": 0.07289615390807624,
+      "zero_point": 0,
+      "max_err": 0.0,
+      "cosine_sim": 1.0,
+      "sqnr_db": 100.0
+    },
+    "asymmetric": {
+      "scale": 1.0,
+      "zero_point": -119,
+      "max_err": 0.2578115463256836,
+      "cosine_sim": 1.0,
+      "sqnr_db": 31.10411956626866
+    }
+  },
+  {
+    "node_id": 225,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_225_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.055093716448686256,
+      "zero_point": 0,
+      "max_err": 0.027490615844726562,
+      "cosine_sim": 0.9999834299087524,
+      "sqnr_db": 44.799413017496065
+    },
+    "asymmetric": {
+      "scale": 0.054412497726141235,
+      "zero_point": -2,
+      "max_err": 0.02719399333000183,
+      "cosine_sim": 0.9999845027923584,
+      "sqnr_db": 45.09431194930556
+    }
+  },
+  {
+    "node_id": 274,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_274_weight.txt",
+    "num_elements": 1152,
+    "symmetric": {
+      "scale": 0.06149543176485798,
+      "zero_point": 0,
+      "max_err": 0.030716896057128906,
+      "cosine_sim": 0.9997684955596924,
+      "sqnr_db": 33.34542116841827
+    },
+    "asymmetric": {
+      "scale": 0.05374623466940487,
+      "zero_point": -18,
+      "max_err": 0.026852965354919434,
+      "cosine_sim": 0.9998265504837036,
+      "sqnr_db": 34.58813073382104
+    }
+  },
+  {
+    "node_id": 273,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_273_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.03856226778405858,
+      "zero_point": 0,
+      "max_err": 0.018758386373519897,
+      "cosine_sim": 0.9999883770942688,
+      "sqnr_db": 46.306796803797795
+    },
+    "asymmetric": {
+      "scale": 0.018224611819959154,
+      "zero_point": -128,
+      "max_err": 0.25013208389282227,
+      "cosine_sim": 0.9997318387031555,
+      "sqnr_db": 31.5736757384094
+    }
+  },
+  {
+    "node_id": 234,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_234_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.013301330288564126,
+      "zero_point": 0,
+      "max_err": 0.0065600574016571045,
+      "cosine_sim": 0.9999552965164185,
+      "sqnr_db": 40.47526631905765
+    },
+    "asymmetric": {
+      "scale": 0.00829008607303395,
+      "zero_point": -77,
+      "max_err": 0.004066348075866699,
+      "cosine_sim": 0.9999815821647644,
+      "sqnr_db": 44.315936877669614
+    }
+  },
+  {
+    "node_id": 283,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_283_weight.txt",
+    "num_elements": 8192,
+    "symmetric": {
+      "scale": 0.004527181152283676,
+      "zero_point": 0,
+      "max_err": 0.002262808382511139,
+      "cosine_sim": 0.9999127984046936,
+      "sqnr_db": 37.590595947795755
+    },
+    "asymmetric": {
+      "scale": 0.004206356932135189,
+      "zero_point": -10,
+      "max_err": 0.0021030716598033905,
+      "cosine_sim": 0.9999232292175293,
+      "sqnr_db": 38.14367745988268
+    }
+  },
+  {
+    "node_id": 224,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_224_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.04278878715094619,
+      "zero_point": 0,
+      "max_err": 0.020472317934036255,
+      "cosine_sim": 0.999980628490448,
+      "sqnr_db": 43.81316087310424
+    },
+    "asymmetric": {
+      "scale": 0.03148523872973872,
+      "zero_point": 45,
+      "max_err": 0.01541823148727417,
+      "cosine_sim": 0.9999840259552002,
+      "sqnr_db": 44.96322568703242
+    }
+  },
+  {
+    "node_id": 299,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_299_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.010438267640241488,
+      "zero_point": 0,
+      "max_err": 0.0051424503326416016,
+      "cosine_sim": 0.9999836683273315,
+      "sqnr_db": 44.843720084708906
+    },
+    "asymmetric": {
+      "scale": 0.008172792079401952,
+      "zero_point": -35,
+      "max_err": 0.004047811031341553,
+      "cosine_sim": 0.9999901056289673,
+      "sqnr_db": 46.966157512402056
+    }
+  },
+  {
+    "node_id": 351,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_351_weight.txt",
+    "num_elements": 4096,
+    "symmetric": {
+      "scale": 0.006988700919263945,
+      "zero_point": 0,
+      "max_err": 0.003493666648864746,
+      "cosine_sim": 0.9999470114707947,
+      "sqnr_db": 39.74732639179596
+    },
+    "asymmetric": {
+      "scale": 0.006681380552404067,
+      "zero_point": 5,
+      "max_err": 0.0033396780490875244,
+      "cosine_sim": 0.9999522566795349,
+      "sqnr_db": 40.200740376510524
+    }
+  },
+  {
+    "node_id": 346,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_346_weight.txt",
+    "num_elements": 576,
+    "symmetric": {
+      "scale": 0.018359724930890903,
+      "zero_point": 0,
+      "max_err": 0.009163320064544678,
+      "cosine_sim": 0.9999716877937317,
+      "sqnr_db": 42.46884225436343
+    },
+    "asymmetric": {
+      "scale": 0.01828607484406116,
+      "zero_point": 0,
+      "max_err": 0.009122699499130249,
+      "cosine_sim": 0.9999711513519287,
+      "sqnr_db": 42.38549880976396
+    }
+  },
+  {
+    "node_id": 282,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_282_weight.txt",
+    "num_elements": 2304,
+    "symmetric": {
+      "scale": 0.00575012578738956,
+      "zero_point": 0,
+      "max_err": 0.0028729999903589487,
+      "cosine_sim": 0.9989085793495178,
+      "sqnr_db": 26.6073448909809
+    },
+    "asymmetric": {
+      "scale": 0.00452886656218884,
+      "zero_point": -34,
+      "max_err": 0.0022632665932178497,
+      "cosine_sim": 0.9993229508399963,
+      "sqnr_db": 28.683057024040636
+    }
+  },
+  {
+    "node_id": 305,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_305_weight.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.005517196936870184,
+      "zero_point": 0,
+      "max_err": 0.0027056708931922913,
+      "cosine_sim": 0.999987781047821,
+      "sqnr_db": 46.08767419567243
+    },
+    "asymmetric": {
+      "scale": 0.004180070582558127,
+      "zero_point": 40,
+      "max_err": 0.0020591914653778076,
+      "cosine_sim": 0.9999933242797852,
+      "sqnr_db": 48.429753476815314
+    }
+  },
+  {
+    "node_id": 282,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_282_bias.txt",
+    "num_elements": 16,
+    "symmetric": {
+      "scale": 0.023663488898690292,
+      "zero_point": 0,
+      "max_err": 0.011362195014953613,
+      "cosine_sim": 0.9999870657920837,
+      "sqnr_db": 45.285756257005964
+    },
+    "asymmetric": {
+      "scale": 0.02202890620512121,
+      "zero_point": 8,
+      "max_err": 0.009713202714920044,
+      "cosine_sim": 0.9999884963035583,
+      "sqnr_db": 46.33393511409495
+    }
+  },
+  {
+    "node_id": 233,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_233_bias.txt",
+    "num_elements": 4,
+    "symmetric": {
+      "scale": 0.005574866073338065,
+      "zero_point": 0,
+      "max_err": 0.002553403377532959,
+      "cosine_sim": 0.9999974370002747,
+      "sqnr_db": 50.38699496574226
+    },
+    "asymmetric": {
+      "scale": 0.0016237763797535617,
+      "zero_point": -128,
+      "max_err": 0.2939450144767761,
+      "cosine_sim": 0.9751281142234802,
+      "sqnr_db": 10.066878372193742
+    }
+  },
+  {
+    "node_id": 291,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_291_bias.txt",
+    "num_elements": 4,
+    "symmetric": {
+      "scale": 0.012818346812030462,
+      "zero_point": 0,
+      "max_err": 0.005436539649963379,
+      "cosine_sim": 0.999994695186615,
+      "sqnr_db": 49.3805999681057
+    },
+    "asymmetric": {
+      "scale": 0.003396906104742312,
+      "zero_point": -128,
+      "max_err": 0.7617189884185791,
+      "cosine_sim": 0.9635509252548218,
+      "sqnr_db": 9.085327644853464
+    }
+  },
+  {
+    "node_id": 346,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_346_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.004310677370687169,
+      "zero_point": 0,
+      "max_err": 0.0021300651133060455,
+      "cosine_sim": 0.9999925494194031,
+      "sqnr_db": 47.80506988301188
+    },
+    "asymmetric": {
+      "scale": 0.003943439324696859,
+      "zero_point": -12,
+      "max_err": 0.001937776803970337,
+      "cosine_sim": 0.9999930262565613,
+      "sqnr_db": 48.51447121827605
+    }
+  },
+  {
+    "node_id": 360,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_360_weight.txt",
+    "num_elements": 8400,
+    "symmetric": {
+      "scale": 0.25196850393700787,
+      "zero_point": 0,
+      "max_err": 0.12598419189453125,
+      "cosine_sim": 0.9999931454658508,
+      "sqnr_db": 43.83699133045069
+    },
+    "asymmetric": {
+      "scale": 0.09411764705882353,
+      "zero_point": -128,
+      "max_err": 8.0,
+      "cosine_sim": 0.9918365478515625,
+      "sqnr_db": 16.812412373755873
+    }
+  },
+  {
+    "node_id": 283,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "bias",
+    "filepath": "weight/head/module_23_detect/node_283_bias.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.05401411957628145,
+      "zero_point": 0,
+      "max_err": 0.026795923709869385,
+      "cosine_sim": 0.9999836683273315,
+      "sqnr_db": 44.69585094881707
+    },
+    "asymmetric": {
+      "scale": 0.051560188742244946,
+      "zero_point": -6,
+      "max_err": 0.025690317153930664,
+      "cosine_sim": 0.9999844431877136,
+      "sqnr_db": 45.02489890990244
+    }
+  },
+  {
+    "node_id": 345,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_345_weight.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.0070743147782453405,
+      "zero_point": 0,
+      "max_err": 0.003461685497313738,
+      "cosine_sim": 0.9999643564224243,
+      "sqnr_db": 41.46746208202012
+    },
+    "asymmetric": {
+      "scale": 0.0058708665417689905,
+      "zero_point": -26,
+      "max_err": 0.002884466201066971,
+      "cosine_sim": 0.9999827146530151,
+      "sqnr_db": 44.45339336963583
+    }
+  },
+  {
+    "node_id": 359,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_359_weight.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.004075417368430791,
+      "zero_point": 0,
+      "max_err": 0.002027362585067749,
+      "cosine_sim": 0.9999915957450867,
+      "sqnr_db": 47.78978616672614
+    },
+    "asymmetric": {
+      "scale": 0.0030081961084814633,
+      "zero_point": 44,
+      "max_err": 0.001433196128346026,
+      "cosine_sim": 0.9999956488609314,
+      "sqnr_db": 50.545911618675376
+    }
+  },
+  {
+    "node_id": 355,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_355_weight.txt",
+    "num_elements": 16800,
+    "symmetric": {
+      "scale": 0.6259842519685039,
+      "zero_point": 0,
+      "max_err": 0.3110237121582031,
+      "cosine_sim": 0.9999908208847046,
+      "sqnr_db": 47.275813793964616
+    },
+    "asymmetric": {
+      "scale": 0.30980392156862746,
+      "zero_point": -128,
+      "max_err": 0.5,
+      "cosine_sim": 0.9999967813491821,
+      "sqnr_db": 52.24289616723772
+    }
+  },
+  {
+    "node_id": 333,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_333_weight.txt",
+    "num_elements": 36864,
+    "symmetric": {
+      "scale": 0.002540393607822929,
+      "zero_point": 0,
+      "max_err": 0.0012701801024377346,
+      "cosine_sim": 0.9962165355682373,
+      "sqnr_db": 21.189999460347163
+    },
+    "asymmetric": {
+      "scale": 0.0019369724918814266,
+      "zero_point": 39,
+      "max_err": 0.0009682103991508484,
+      "cosine_sim": 0.9977219104766846,
+      "sqnr_db": 23.400299442180707
+    }
+  },
+  {
+    "node_id": 291,
+    "stage": "head",
+    "module": "module_23_detect",
+    "param_type": "weight",
+    "filepath": "weight/head/module_23_detect/node_291_weight.txt",
+    "num_elements": 64,
+    "symmetric": {
+      "scale": 0.009265811424555742,
+      "zero_point": 0,
+      "max_err": 0.0045779999345541,
+      "cosine_sim": 0.999966025352478,
+      "sqnr_db": 41.56879586190228
+    },
+    "asymmetric": {
+      "scale": 0.00733953737745098,
+      "zero_point": -33,
+      "max_err": 0.003662601113319397,
+      "cosine_sim": 0.9999813437461853,
+      "sqnr_db": 44.274591314226164
+    }
+  }
+]

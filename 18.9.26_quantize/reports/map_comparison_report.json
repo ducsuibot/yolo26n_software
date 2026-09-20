@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-19 12:36:32",
+  "dataset": "DUT_Anti_UAV_YOLO (val)",
+  "num_images_evaluated": 10,
+  "preprocessing": "direct_resize_640x640",
+  "fp32": {
+    "model": "best.onnx",
+    "size_mb": 9.35042953491211,
+    "precision": 1.0,
+    "recall": 0.929732405978466,
+    "f1": 0.9635868715248604,
+    "map50": 0.9725,
+    "map50_95": 0.7045946275946277,
+    "latency_ms": 26.091473099950235,
+    "fps": 38.32669762145041
+  },
+  "int8": {
+    "model": "best_quantized_int8.onnx",
+    "size_mb": 2.6337709426879883,
+    "precision": 1.0,
+    "recall": 0.9180811691327101,
+    "f1": 0.957291259522489,
+    "map50": 0.935,
+    "map50_95": 0.6437470238095238,
+    "latency_ms": 90.55081459955545,
+    "fps": 11.04352295915082
+  },
+  "delta": {
+    "size_reduction_pct": 71.8326208132561,
+    "delta_precision_pct": 0.0,
+    "delta_recall_pct": -1.1651236845755863,
+    "delta_f1": -0.006295612002371498,
+    "delta_map50_pct": -3.749999999999998,
+    "delta_map50_95_pct": -6.08476037851039
+  }
+}

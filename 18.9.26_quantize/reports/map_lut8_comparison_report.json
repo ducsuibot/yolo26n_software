@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-09-19 12:55:54",
+  "dataset": "DUT_Anti_UAV_YOLO (val)",
+  "num_images_evaluated": 2600,
+  "preprocessing": "direct_resize_640x640",
+  "models": {
+    "1. Baseline FP32": {
+      "model_label": "1. Baseline FP32",
+      "model_name": "best.onnx",
+      "model_path": "best.onnx",
+      "file_size_mb": 9.35042953491211,
+      "total_images": 2600,
+      "total_gt": 2621,
+      "total_detections": 12624,
+      "precision": 0.9256051161038302,
+      "recall": 0.7974055703929798,
+      "f1": 0.856736039247777,
+      "map50": 0.855594665772863,
+      "map50_95": 0.4503553200086799,
+      "latency_ms": 26.925990982305777,
+      "fps": 37.138837365619814
+    },
+    "2. INT8 Conv (FP32 Act)": {
+      "model_label": "2. INT8 Conv (FP32 Act)",
+      "model_name": "best_quantized_int8.onnx",
+      "model_path": "18.9.26_quantize/models/best_quantized_int8.onnx",
+      "file_size_mb": 2.6337709426879883,
+      "total_images": 2600,
+      "total_gt": 2621,
+      "total_detections": 12960,
+      "precision": 0.8983725837925253,
+      "recall": 0.7251320003017493,
+      "f1": 0.8025092322916368,
+      "map50": 0.7868395619693568,
+      "map50_95": 0.37293924130163264,
+      "latency_ms": 90.34591793077058,
+      "fps": 11.068568706848167
+    },
+    "3. INT8 Conv + 8-bit LUT Act": {
+      "model_label": "3. INT8 Conv + 8-bit LUT Act",
+      "model_name": "best_quantized_int8_lut8.onnx",
+      "model_path": "18.9.26_quantize/models/best_quantized_int8_lut8.onnx",
+      "file_size_mb": 2.669055938720703,
+      "total_images": 2600,
+      "total_gt": 2621,
+      "total_detections": 7324,
+      "precision": 0.876666259703203,
+      "recall": 0.7405570392979779,
+      "f1": 0.8028840174875098,
+      "map50": 0.7859143949064256,
+      "map50_95": 0.3807184631210859,
+      "latency_ms": 207.73242316691372,
+      "fps": 4.8138850197520515
+    }
+  },
+  "comparison_summary": {
+    "size_reduction_pct": 71.45525851240168,
+    "delta_map50_pct": -6.968027086643747,
+    "delta_map50_95_pct": -6.963685688759397,
+    "delta_f1": -0.053852021760267155,
+    "delta_precision_pct": -4.893885640062723,
+    "delta_recall_pct": -5.684853109500187,
+    "int8_fp32_act_map50": 0.7868395619693568,
+    "int8_lut8_act_map50": 0.7859143949064256,
+    "lut8_vs_int8_act_drop_map50": -0.09251670629312203,
+    "lut8_vs_int8_act_drop_map50_95": 0.7779221819453286
+  }
+}
